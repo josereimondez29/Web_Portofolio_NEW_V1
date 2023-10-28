@@ -1,0 +1,308 @@
+@import "variable/variables";
+@import "mixin";
+
+
+@media(max-width: 1199px){
+    //Media Of Sidebar (max-width: 1199)//
+     .sidebar-toggler{
+        display: block;
+    }
+    .sidebar-page .page-content {
+        padding-left: 0 !important;
+    }
+    .sidebar-page .sidebar {
+    width: 100%;
+    }
+    .sidebar-page .sidebar .sidebar-list {
+    text-align: center;
+    }
+    .sidebar-page .sidebar .sidebar-text {
+    text-align: center;
+    }
+    .sidebar-page .sidebar .sidebar-text p {
+    text-align: center;
+    hyphens: inherit;
+    }
+    .sidebar-page .sidebar .socials {
+    position: relative;
+    }
+    .sidebar-page .sidebar.hide {
+    left: -100%;
+    }
+    .sidebar-page .sidebar .social-icon{
+        position: relative;
+        margin: auto;
+        text-align: center;
+        bottom: 42px;
+    }
+    //Media Of Sidebar (max-width: 1199)//
+    .blog-04{
+        .blog-box{
+            font-size: 14px;
+            height: 45vh;
+        }
+        .Blog-title{
+            font-size: 18px;
+        }
+    }
+    .sidebar-page{
+        .blog-04{
+            .blog-box{
+                font-size: 14px;
+                height: 45vh;
+            }
+        }
+    }
+}
+
+@media (max-width: 991px){
+     //Media Of Components(max-width: 991)//
+     .title-box h3 {
+        font-size: 52px;
+    }
+    .mouse-cursor{
+        display: none;
+    }
+    .row-sticky {
+        display: block;
+    }
+    .col-sticky {
+        position: inherit;
+    }
+    .return-to-top{
+        right: 0;
+        border-radius: $rounded-sm 0 0 $rounded-sm;
+    }
+    //Media Of Hero(max-width: 991)//
+    .hero-03 {
+        padding-bottom: 8rem;
+        .personal-img img{
+            width: 200px;
+        }
+    }
+    .title-box h6{
+        letter-spacing: 7px;
+    }
+    //Media Of Counted(max-width: 991)//
+    .counted-box-02{
+        margin-top: 24px;
+    }
+    //Media Of Skills(max-width: 991)//
+    .skills-01 .skill-box {
+        margin-top: 32px;
+    }
+    //Media Of Testimonial(max-width: 991)//
+    .testimonial-01{
+        .testimonial-image {
+            width: 30%;
+            float: inherit;
+        }
+        .testimonial-content {
+            margin-left: 0;
+            float: inherit;
+            width: 100%;
+            margin-top: 16px;
+        }
+        .testimonial-comment {
+            font-size: 18px;
+        }
+        .owl-dots {
+            left: 0;
+        }
+    } 
+    //Media Of Blog(max-width: 991)//
+    .blog-04{
+        .blog-item{
+            display: flex;
+            flex-direction: row;
+        }
+        .blog-box {
+            flex: 50%;
+            height: auto;
+        }
+        .image-blog{
+            flex: 50%;
+        }
+        .col-md-12.col-lg-4:first-child .blog-box::after,
+        .col-md-12.col-lg-4:nth-child(3) .blog-box::after
+        {
+            left: -10px;
+            transform: rotate(25deg);
+            top: 46%;
+        }
+        .col-md-12.col-lg-4:nth-child(2) .blog-box::after{
+            right: -10px;
+            transform: rotate(-25deg);
+            top: 46%;
+            left: inherit;
+        }
+        .col-md-12.col-lg-4:first-child{
+            .blog-item{
+                border-bottom-left-radius: 0;
+            }
+            .image-blog img{
+                border-top-left-radius: $rounded-sm;
+            }
+            .blog-box{
+                border-top-right-radius: $rounded-sm;
+            }
+        }
+        .col-md-12.col-lg-4:nth-child(3){
+            .blog-item{
+                border-top-right-radius: 0;
+                border-bottom-right-radius: $rounded-sm;
+            }
+            .image-blog img{
+                border-bottom-left-radius: $rounded-sm;
+                border-top-right-radius: 0;
+            }
+            .blog-box{
+                border-bottom-right-radius: $rounded-sm;
+            }
+        }
+    }
+    .sidebar-page{
+        .blog-04{
+            .blog-box{
+                height: auto;
+            }
+        }
+    }
+}
+@media (max-width: 767px){
+    //Media Of Hero(max-width: 767)//
+    .hero-01 .hero-content p {
+        max-width: 300px;
+    }
+    //Media Of About(max-width: 767)//
+    .about-01{
+        .title-box h3{
+            font-size: 28px;
+        }
+    }
+    //Media Of Portfolio(max-width: 767)//
+    .portfolio-01{
+        .portfolio-item:last-child a {
+            top: 0;
+        }
+    }
+    .portfolio-02 .portfolio-filter li a {
+        padding: 6px 12px;
+    }
+    .portfolio-boxes-04 {
+        .portfolio-item{
+            padding: inherit;
+            margin-top: 30px !important;
+        }
+        .portfolio-img img {
+            border-radius: $rounded-sm;
+        }
+    }
+     //Media Of Blog(max-width: 767)//
+     .blog-04{
+        .col-lg-4{
+            padding: 0 15px;
+        }
+        .blog-item{
+            display: block;
+            border-radius: $rounded-sm;
+        }.blog-box{
+            border-radius: 0 0 $rounded-sm $rounded-sm !important;
+        }
+        .image-blog img{
+            border-radius: $rounded-sm $rounded-sm 0 0 !important;
+        }
+        .blog-item{
+            margin-top: 30px;
+        }
+        .col-md-12.col-lg-4:first-child .blog-box::after,
+        .col-md-12.col-lg-4:nth-child(3) .blog-box::after,
+        .col-md-12.col-lg-4:nth-child(2) .blog-box::after
+        {
+            display: none;
+        }
+    }
+    .contact-02{
+        .col-md-4:not(:last-child) .info-box{
+            margin-bottom: 3rem;
+        }
+    }
+    
+}
+
+@media (max-width: 576px){
+
+    //Media Of Hero(max-width: 576)//
+    .hero-03 .personal-info ul li small {
+        font-weight: 300;
+        display: block;
+    }.hero-03{
+        .personal-name{
+            font-size: 32px;
+        }
+        .personal-discription{
+            font-size: 22px;
+        }
+    } 
+    //Media Of About(max-width: 576)//
+    .about-04 .personal-info ul li small {
+        display: block;
+    }
+    //Media Of Portfolio(max-width: 576)//
+    .portfolio-boxes-04 .portfolio-item {
+        padding: 0 15px;
+    }
+
+    //Media Of Counted(max-width: 576)//
+    .counted-box-01{
+        .count-item:not(:last-child){
+            margin-bottom: 16px;
+        }
+        .count-number {
+            font-size: 32px;
+        }
+        .count-content p {
+            font-size: 13px;
+        }
+    }
+    //Media Of Single Page
+    .blog-single{
+        .children {
+            margin-left: 0 !important;
+        }
+        .comment-reply-link {
+            right: 0;
+            top: inherit;
+            top: 0;
+        }
+    }
+    //Media of Contact(max-width: 576)//
+    #message.toast {
+        font-size: 12px;
+        padding: 3px 0;
+    }
+}
+
+@media (max-width: 380px) {
+    //Media of Contact(max-width: 380)//
+    #message.toast {
+      top: 60px;
+      left: 15px;
+    }
+    .about-02{
+        .social-icon{
+            display: block;
+        }
+        .social-icon::before{
+            display: none;
+        }
+        .social-icon ul{
+            margin-left: 0;
+        }
+        .social-icon a {
+            margin-top: 24px;
+            display: inline-block;
+            margin-right: 16px;
+        }
+    }
+  }

@@ -1,0 +1,282 @@
+@import "variable/variables";
+@import "mixin";
+
+
+////////////////////////////DARK PAGES/////////////////////////////
+.westin-dark{
+    background-color: #202020;
+    color: #fff;
+    ///Component &fix
+    .bg-grey{
+        background-color: #171717;
+    }
+    .color-switcher .pallet-button {
+        background-color: #fff;
+        a{
+            color: #010101;
+        }
+    }
+    .cursor-effect {
+        border: 1px solid #fff;
+    }
+    .cursor {
+        background-color: #fff;
+    }
+    .cursor.cursor-hover {
+        background-color: #fff;
+    }
+    .title-box span {
+        -webkit-text-stroke: 1px rgba(255, 255, 255, 0.25);
+    }
+    .black-pill-button-01{
+        background-color: #fff;
+        color: #010101 !important;
+        &:hover{
+            background-color: #ececec;
+        }
+    }
+    //Header
+    .header{
+        background-color: #010101;
+        nav a{
+            color: #fff;
+        }
+    }
+    &.sidebar-page .sidebar{
+        background-color: #171717;
+        box-shadow: 0 3px 8px 0 rgba(74, 74, 74, 0.2);
+        .sidebar-list .list-group-item {
+            color: #fff;
+        }
+        .social-icon a {
+            color: #fff;
+        }
+    }
+    .navbar-toggler span{
+        color: #fff;
+    }
+    //Dark-Hero
+    .hero-02 {
+        box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.8);
+        .scroll-down span{
+            border-color: #fff;
+        }
+        .scroll-down span::before{
+            background-color: #fff;
+        }
+    }
+    .hero-03 {
+        box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.8);
+    }
+    //Dark-About
+    .about-02{
+        .social-icon a {
+            color: #fff;
+        }
+        .social-icon::before{
+            background-color: #fff;
+        }
+    } 
+    .about-04 .social-icon li a{
+        background-color: #282828;
+        color: #fff;
+    }
+    .counted-box-02 .count-content{
+        background-color: #282828;
+    }
+    .skills-01{
+        .skillbar{
+            background-color: #535353;
+        }
+        .skill-bar-percent .arrow{
+            background-color: #202020;
+        }
+    } 
+    //Dark-Services
+    .services-01{
+        .services-box {
+            background: #202020;
+        }
+    } 
+    .services-02{
+        .services-box {
+            background: #202020;
+        }
+        .services-icon{
+            opacity: 0.12;
+        }
+    } 
+    .services-03{
+        .services-box {
+            background-color: #202020;
+        }
+    }
+    //Dark-Resume
+    .resume-01{
+        .timeline-contents{
+            background: #282828;
+        }
+    } 
+    .services-04 .services-box {
+        background: #202020;
+    }
+    //Dark-Portfolio
+    .portfolio-01{
+        .portfolio-overlay{
+            background-color: rgba(23,23,23,0.9);
+        }
+    } 
+    .portfolio-02{
+        .portfolio-filter li a {
+            color: #fff;
+        }
+        .portfolio-box::before{
+            background-color: rgba(23,23,23,0.9);
+        }
+    }
+    //DarkPortfolio
+    .testimonial-01 {
+        box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.9);
+    }
+    .testimonial-01.bg-transparent{
+        box-shadow: none;
+    }
+    //Dark-Blog
+    .blog-01{
+        .blog-item{
+            background-color: #202020;
+        }
+        a{
+            color: #fff;
+        }
+    }
+    .blog-02{
+        .blog-item{
+            background-color: #171717;
+        }
+        .blog-time{
+            background-color: #202020;
+        }
+        a{
+            color: #fff;
+        }
+    }
+    .blog a{
+        color: #fff;
+    }
+    .blog-04{
+        .blog-box{
+            background-color: #171717;
+        }
+        a{
+            color: #fff;
+        }
+        .col-md-12.col-lg-4:nth-child(2) .blog-box::after ,
+        .col-md-12.col-lg-4:first-child .blog-box::after,
+        .col-md-12.col-lg-4:nth-child(3) .blog-box::after 
+        {
+            border-color: transparent transparent #171717 transparent;
+        }
+    } 
+    //Dark-Contact
+    .contact-01 .form-control{
+        background-color: #282828;
+        color: #fff;
+    }
+    .contact-02 .form-control {
+        background-color: #282828;
+    }
+    //Dark-Footer
+    footer{
+        background-color: #010101;
+        li a{
+            background-color: #171717;
+        }
+    }
+    //Dark Blog Pages
+    .blog-page-header {
+        box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.7);
+        color: #fff;
+        .entry-meta ul li a {
+            color: #fff;
+        }
+    }
+    .blog-single{
+        .single-post{
+            background-color: #282828;
+        }   
+        .aside-box{
+            background-color: #282828;
+        }
+        .search-boxes .form-group {
+            background-color: #282828;
+        }
+        .aside-item ul li a {
+            color: #fff;
+        }
+        .post-title a {
+            color: #fff;
+        }
+        .blog-date{
+            color: #fff;
+        }
+        .comment-reply-link{
+            color: #fff;
+        }
+        .tagcloud a {
+            color: #fff;
+        }
+        .aside-title::after{
+            background-color: #535353;
+        }
+        .comment-wrap {
+            border: 1px solid #535353;
+        }
+        .image-comment{
+            border: 1px solid #535353;
+        }
+        .tagcloud a{
+            border: 1px solid #535353;
+        }
+        .aside-item ul li:not(:last-child){
+            border-bottom: 1px solid #535353;
+        }
+        .post-list:not(:last-child){
+            border-bottom: 1px solid #535353;
+        }
+        .search-boxes input{
+            color: #fff;
+        }
+        .search-boxes button.btn {
+            color: #fff;
+        }
+        .quotation {
+            border-color:  #fff;
+        }
+    } 
+    //Pagination
+    .pagination-box{
+        .page-item.disabled .page-link {
+            border-color: #535353;
+        }
+        .page-item:last-child .page-link {
+            border-color: #535353;
+        }
+        .page-link{
+            border-color: #535353;
+        }
+    }
+    //Dark Portfolio Single
+    .single-portfolio{
+        .single-post {
+            background-color: #282828;
+        }
+        .aside-box {
+            background-color: #282828;
+        }
+        .aside-item-portfolio ul li {
+            border-bottom: 1px solid #535353;
+        }
+    } 
+}
+

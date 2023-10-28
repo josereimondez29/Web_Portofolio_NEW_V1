@@ -1,0 +1,92 @@
+@import "variable/variables";
+@import "mixin";
+
+
+//services-01
+.services-01{
+    .services-box {
+        @include services-box;
+        text-align: left;
+        &:hover {
+            transform: translateY(-10px);
+        }
+    }
+    .services-head{
+        margin-bottom: 16px;
+    }
+    .services-icon{
+        font-size: 32px;
+        margin-bottom: 18px;
+    }
+}
+
+//Services-02
+.services-02{
+    .services-box {
+        @include services-box;
+        text-align: center;
+        &:hover {
+            color: $white !important;
+            overflow: hidden;
+            border-radius: $rounded-sm; 
+        }
+        &:hover .services-icon {
+            opacity: 0.2;
+            color: $white; 
+        }
+        .services-head{
+            margin-bottom: 16px;
+        }
+        .services-icon {
+            position: $position-absolute;
+            left: calc(50% - 52px);
+            top: calc(50% - 40px);
+            opacity: 0.1;
+            font-size: 6rem;
+
+        }
+    }
+}
+
+//Services-03
+.services-03{
+    .services-box {
+        @include services-box;
+        padding: 32px 24px;
+        background-color: transparent;
+        background-color: #fff;
+    }
+    .services-icon{
+        font-size: 32px;
+        float: left;
+        margin-top: 6px;
+    }
+    .services-content{
+        padding-left: 48px;
+    }
+}
+//Services-04
+.services-04{
+    .services-box {
+        @include services-box;
+        text-align: center;
+        &:hover {
+            color: $white !important;
+            overflow: hidden;
+            border-radius: $rounded-sm; 
+        }
+        &:hover .services-icon {
+            color: $white; 
+        }
+        .services-head{
+            margin-bottom: 16px;
+        }
+        .services-icon {
+            font-size: 24px;
+            margin-bottom: 12px;
+        }
+    }
+}
+
+
+

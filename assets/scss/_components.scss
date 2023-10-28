@@ -1,0 +1,104 @@
+@import "variable/variables";
+@import "mixin";
+
+/*-------------------------
+         GENERAL
+-------------------------*/
+body {
+    font-family: $Poppins;
+    font-weight: $font-weight-light;
+    color: #171717;
+    font-size: 16px;
+}
+h1, h2, h3, h4, h5, h6, .h1 {
+    font-family: $Poppins;
+    line-height: $golden-line-height;
+}
+a:hover {
+    text-decoration: none;
+}
+a, button {
+    outline: none !important;
+}
+.full-screen {
+    height: 100vh;
+}
+.py-6{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.pb-6{
+    padding-bottom: 100px;
+}
+.pt-6{
+    padding-top: 100px;
+}
+.mt-6{
+    margin-top: 100px;
+}
+.bg-grey{
+    background-color: #f8f8f8;
+}
+
+.pill-button-01 {
+    @include button-box;
+    
+}
+.black-pill-button-01{
+    @include button-box;
+    background-color: #202020;
+    &:hover{
+        background-color: #010101;
+    }
+}
+.title-box{
+    text-align: $text-center;
+    font-family: $Barlow;
+    h6{
+        font-weight: $font-weight-light;
+        font-size: 16px;
+        // text-transform: uppercase;
+        letter-spacing: 8px;
+        margin-bottom: 6px;
+    }
+    h3{
+        font-size: 72px;
+        font-weight: $font-weight-extra-bold;
+        // text-transform: uppercase;
+        letter-spacing: 4px;
+        text-shadow: 0 8px rgba(0, 0, 0, 0.02);
+        font-family: $Barlow;
+    }
+    span{
+        position: $position-absolute;
+        bottom: 5%;
+        left: 0;
+        width: $w-100;
+        font-size: 9vw;
+        font-weight: $font-weight-extra-bold;
+        color: transparent;
+        -webkit-text-stroke: 1px rgba(0, 0, 0, 0.25);
+        opacity: .3;
+        letter-spacing: 3px;
+    }
+}
+.bg-grey .title-box span{
+    opacity: .2;
+}
+.title-box-03{
+    h6{
+        font-weight: 300;
+    }
+}
+.row-sticky {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.col-sticky {
+    position: sticky;
+    align-self: flex-end;
+    bottom: 2px;
+}
+
+

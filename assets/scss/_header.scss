@@ -1,0 +1,42 @@
+@import "variable/variables";
+@import "mixin";
+
+
+
+/*-------------------------
+          Header
+-------------------------*/
+.header {
+    transition: all 0.8s ease;
+    background-color: #fff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .header nav a {
+    color: #171717;
+    font-size: 1rem;
+    background-color: transparent !important;
+    margin: 0 7px;
+    line-height: 1.5em;
+    transition: all 0.5s;
+  }
+  
+  .header nav a.navbar-brand {
+    color: #171717;
+    font-size: 24px;
+  }
+  
+  
+  .header-sticky {
+    background-color: #ffffff;
+    padding: 5px 0;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-sticky nav li a {
+    color: #171717;
+  }
+  
+  .header-sticky nav a.navbar-brand {
+    color: #171717;
+  }

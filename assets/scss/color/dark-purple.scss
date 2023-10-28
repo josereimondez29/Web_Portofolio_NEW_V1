@@ -1,0 +1,230 @@
+@import "colorfull-variable";
+
+//Component
+.base-color{
+    color: $dark-purple !important;
+}
+.pill-button-01 {
+    background-color: $dark-purple;
+    &:hover{
+        background-color: $dark-purple-hover;
+    }
+}
+.pill-button-01 {
+    background-color: $dark-purple !important;
+    &:hover{
+        background-color: $dark-purple-hover !important;
+    }
+}
+.title-box h6{
+    color: $dark-purple;
+}
+.title-box-03 h2{
+    color: $dark-purple;
+}
+
+//Preloader
+.spinner {
+    border-top-color: $dark-purple;
+}
+.loader .letter-animation::before {
+    color: $dark-purple;
+}
+//Header
+.header{
+    nav a:hover {
+        color: $dark-purple !important;
+    }
+    nav a.navbar-brand:hover {
+        color: $dark-purple !important;
+    }
+    nav .nav-pills a.active {
+        color: $dark-purple;
+    }
+} 
+//Hero-03
+.hero-03 {
+    .social-icon  li a:hover{
+        color: $dark-purple;
+    }
+}
+
+//Counted01
+.counted-box-01{
+    .count-number {
+        color: $dark-purple;
+    }
+}
+//Counted-02{
+.counted-box-02{
+    .count-number {
+        color: $dark-purple;
+    }
+}
+//Skills-01
+.skills-01{
+    .skillbar-bar {
+        background: $dark-purple;
+    }
+    .skill-bar-percent {
+        border-color: $dark-purple;
+        color: $dark-purple;
+    }
+    .skill-bar-percent .arrow {
+        border-color: $dark-purple;
+    }
+}
+.resume-01{
+    .timeline-icon {
+        border: 1px solid $dark-purple;
+        background-color: $dark-purple;
+    }
+    .timeline-boxes::before {
+        background-color: $dark-purple;
+    }
+    .timeline-contents::before {
+        background-color: $dark-purple;
+    }
+} 
+//Services
+.services-01{
+    .services-icon{
+        color: $dark-purple;
+    }
+}
+.services-02{
+    .services-box:hover {
+        background-color: $dark-purple !important;
+    }
+    .services-icon {
+        color: $dark-purple;
+    }
+}
+.services-03{
+    .services-icon{
+        color: $dark-purple;
+    }
+}
+.services-04{
+    .services-box:hover{
+        background-color: $dark-purple !important;
+    }
+    .services-icon {
+        color: $dark-purple;
+    }
+}
+//Portfolio
+.portfolio-icon a{
+    background: $dark-purple;
+}
+.portfolio-02.bg-portfolio {
+    background-color: transparentize($color: $dark-purple, $amount: 0.3);
+}
+.portfolio-filter{
+    li a.active , li a:hover{
+        background-color: $dark-purple;
+    }
+}
+//Testimonial
+.testimonial-01{
+    .owl-dot.active span{
+        background-color: $dark-purple; 
+    }
+}
+.testimonial-02{
+    .testimonial-item::before {
+        color: $dark-purple;
+    }
+    .owl-dot.active span{
+        background-color: $dark-purple; 
+    }
+}
+//Blog
+.blog-01{
+    .blog-link a:hover{
+        color: $dark-purple;
+    }
+}
+.blog-02{
+    .blog-link a:hover{
+        color: $dark-purple;
+    }
+}
+.blog-04 .blog-link a:hover {
+    color: $dark-purple-hover
+}
+//Resume
+.resume-01{
+    .timeline-year {
+        background: $dark-purple;
+    }
+    .svg-inline--fa {
+        color: $dark-purple;
+    }
+}
+//contact-01
+.contact-01{
+    .item-icon {
+        color: $dark-purple;
+    }
+}
+//Contact-02
+.contact-02{
+    .item-icon {
+        color: $dark-purple;
+    }
+}
+//Footer
+footer{
+    li a {
+        color: $dark-purple;
+    }
+    li a:hover{
+        color: $dark-purple-hover;
+    }
+}
+//ReturnTop
+.return-to-top {
+    background-color: $dark-purple;
+}
+//SideBar
+.sidebar-toggler {
+    background-color: $dark-purple;
+}
+.sidebar-list .list-group-item:hover, .sidebar-list .list-group-item.active  {
+    color: $dark-purple !important;
+}
+.sidebar-page .sidebar .social-icon a:hover{
+    color: $dark-purple;
+}
+//Blog Single
+.entry-meta  ul li i {
+    color: $dark-purple;
+} 
+.blog-single{
+    .comment-author p a {
+        color: $dark-purple;
+    }
+    .aside-item ul li span {
+        background-color: $dark-purple;
+    }
+    .aside-item ul li a:hover{
+        color: $dark-purple;
+    }
+    .about-description-box p::before {
+        background-color: $dark-purple;
+    }
+}
+//Pagination
+.page-item.active .page-link,.page-link:hover{
+    border-color: $dark-purple !important;
+    background-color: $dark-purple !important;
+}
+//Portfolio Single
+.single-portfolio{
+    .aside-item-portfolio ul li a{
+        color: $dark-purple;
+    }
+}
+
+  

@@ -1,0 +1,230 @@
+@import "colorfull-variable";
+
+//Component
+.base-color{
+    color: $red !important;
+}
+.pill-button-01 {
+    background-color: $red;
+    &:hover{
+        background-color: $red-hover;
+    }
+}
+.pill-button-01 {
+    background-color: $red;
+    &:hover{
+        background-color: $red-hover;
+    }
+}
+.title-box h6{
+    color: $red;
+}
+.title-box-03 h2{
+    color: $red;
+}
+
+//Preloader
+.spinner {
+    border-top-color: $red;
+}
+.loader .letter-animation::before {
+    color: $red;
+}
+//Header
+.header{
+    nav a:hover {
+        color: $red !important;
+    }
+    nav a.navbar-brand:hover {
+        color: $red !important;
+    }
+    nav .nav-pills a.active {
+        color: $red;
+    }
+} 
+//Hero-03
+.hero-03 {
+    .social-icon  li a:hover{
+        color: $red;
+    }
+}
+
+//Counted01
+.counted-box-01{
+    .count-number {
+        color: $red;
+    }
+}
+//Counted-02{
+.counted-box-02{
+    .count-number {
+        color: $red;
+    }
+}
+//Skills-01
+.skills-01{
+    .skillbar-bar {
+        background: $red;
+    }
+    .skill-bar-percent {
+        border-color: $red;
+        color: $red;
+    }
+    .skill-bar-percent .arrow {
+        border-color: $red;
+    }
+}
+.resume-01{
+    .timeline-icon {
+        border: 1px solid $red;
+        background-color: $red;
+    }
+    .timeline-boxes::before {
+        background-color: $red;
+    }
+    .timeline-contents::before {
+        background-color: $red;
+    }
+} 
+//Services
+.services-01{
+    .services-icon{
+        color: $red;
+    }
+}
+.services-02{
+    .services-box:hover {
+        background-color: $red !important;
+    }
+    .services-icon {
+        color: $red;
+    }
+}
+.services-03{
+    .services-icon{
+        color: $red;
+    }
+}
+.services-04{
+    .services-box:hover{
+        background-color: $red !important;
+    }
+    .services-icon {
+        color: $red;
+    }
+}
+//Portfolio
+.portfolio-icon a{
+    background: $red;
+}
+.portfolio-02.bg-portfolio {
+    background-color: transparentize($color: $red, $amount: 0.5);
+}
+.portfolio-filter{
+    li a.active , li a:hover{
+        background-color: $red;
+    }
+}
+//Testimonial
+.testimonial-01{
+    .owl-dot.active span{
+        background-color: $red; 
+    }
+}
+.testimonial-02{
+    .testimonial-item::before {
+        color: $red;
+    }
+    .owl-dot.active span{
+        background-color: $red; 
+    }
+}
+//Blog
+.blog-01{
+    .blog-link a:hover{
+        color: $red;
+    }
+}
+.blog-02{
+    .blog-link a:hover{
+        color: $red;
+    }
+}
+.blog-04 .blog-link a:hover {
+    color: $red-hover;
+}
+//Resume
+.resume-01{
+    .timeline-year {
+        background: $red;
+    }
+    .svg-inline--fa {
+        color: $red;
+    }
+}
+//contact-01
+.contact-01{
+    .item-icon {
+        color: $red;
+    }
+}
+//Contact-02
+.contact-02{
+    .item-icon {
+        color: $red;
+    }
+}
+//Footer
+footer{
+    li a {
+        color: $red;
+    }
+    li a:hover{
+        color: $red-hover;
+    }
+}
+//ReturnTop
+.return-to-top {
+    background-color: $red;
+}
+//SideBar
+.sidebar-toggler {
+    background-color: $red;
+}
+.sidebar-list .list-group-item:hover, .sidebar-list .list-group-item.active  {
+    color: $red !important;
+}
+.sidebar-page .sidebar .social-icon a:hover{
+    color: $red;
+}
+//Blog Single
+.entry-meta  ul li i {
+    color: $red;
+} 
+.blog-single{
+    .comment-author p a {
+        color: $red;
+    }
+    .aside-item ul li span {
+        background-color: $red;
+    }
+    .aside-item ul li a:hover{
+        color: $red;
+    }
+    .about-description-box p::before {
+        background-color: $red;
+    }
+}
+//Pagination
+.page-item.active .page-link,.page-link:hover{
+    border-color: $red !important;
+    background-color: $red !important;
+}
+//Portfolio Single
+.single-portfolio{
+    .aside-item-portfolio ul li a{
+        color: $red;
+    }
+}
+
+  

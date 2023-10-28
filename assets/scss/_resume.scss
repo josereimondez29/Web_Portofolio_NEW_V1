@@ -1,0 +1,66 @@
+@import "variable/variables";
+@import "mixin";
+
+
+//Resume-01
+.resume-01{
+    .timeline-boxes{
+        margin-top: 30px;
+        position: relative;
+        &:before{
+            content: ' ';
+            background: $color-border-three;
+            display: inline-block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 2px;
+            height: 100%;
+            z-index: 2;
+        }
+    }
+    .timeline-boxe {
+        position: relative;
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+    .timeline-contents {
+        padding: 30px;
+        border-radius: 8px;
+        background-color: #f8f8f8;
+        &::before{
+            content: '';
+            position: absolute;
+            height: 2px;
+            width: 22px;
+            top: 51px;
+            left: -22px;
+            background-color: $color-border-three;
+        }
+    }
+    .timeline-year {
+        font-size: 14px;
+        display: inline-block;
+        color: #fff;
+        padding: 0 12px;
+        border-radius: 16px;
+    }
+    .timeline-icon {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        position: absolute;
+        top: 43px;
+        left: -37px;
+        z-index: 10;
+        border: 1px solid $color-border-three;
+        background-color: $color-border-three;
+        z-index: 3;
+    }
+    .title-resume i {
+        padding-right: 0.75rem;
+    }
+    .svg-inline--fa {
+        margin-right: 4px;
+    }
+}

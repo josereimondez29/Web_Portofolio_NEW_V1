@@ -1,0 +1,215 @@
+.base-color {
+  color: #1ab394 !important;
+}
+
+.pill-button-01 {
+  background-color: #1ab394;
+}
+
+.pill-button-01:hover {
+  background-color: #139e82;
+}
+
+.pill-button-01 {
+  background-color: #1ab394;
+}
+
+.pill-button-01:hover {
+  background-color: #139e82;
+}
+
+.title-box h6 {
+  color: #1ab394;
+}
+
+.title-box-03 h2 {
+  color: #1ab394;
+}
+
+.spinner {
+  border-top-color: #1ab394;
+}
+
+.loader .letter-animation::before {
+  color: #1ab394;
+}
+
+.header nav a:hover {
+  color: #1ab394 !important;
+}
+
+.header nav a.navbar-brand:hover {
+  color: #1ab394 !important;
+}
+
+.header nav .nav-pills a.active {
+  color: #1ab394;
+}
+
+.hero-03 .social-icon li a:hover {
+  color: #1ab394;
+}
+
+.counted-box-01 .count-number {
+  color: #1ab394;
+}
+
+.counted-box-02 .count-number {
+  color: #1ab394;
+}
+
+.skills-01 .skillbar-bar {
+  background: #1ab394;
+}
+
+.skills-01 .skill-bar-percent {
+  border-color: #1ab394;
+  color: #1ab394;
+}
+
+.skills-01 .skill-bar-percent .arrow {
+  border-color: #1ab394;
+}
+
+.resume-01 .timeline-icon {
+  border: 1px solid #1ab394;
+  background-color: #1ab394;
+}
+
+.resume-01 .timeline-boxes::before {
+  background-color: #1ab394;
+}
+
+.resume-01 .timeline-contents::before {
+  background-color: #1ab394;
+}
+
+.services-01 .services-icon {
+  color: #1ab394;
+}
+
+.services-02 .services-box:hover {
+  background-color: #1ab394 !important;
+}
+
+.services-02 .services-icon {
+  color: #1ab394;
+}
+
+.services-03 .services-icon {
+  color: #1ab394;
+}
+
+.services-04 .services-box:hover {
+  background-color: #1ab394 !important;
+}
+
+.services-04 .services-icon {
+  color: #1ab394;
+}
+
+.portfolio-icon a {
+  background: #1ab394;
+}
+
+.portfolio-02.bg-portfolio {
+  background-color: rgba(26, 179, 148, 0.7);
+}
+
+.portfolio-filter li a.active, .portfolio-filter li a:hover {
+  background-color: #1ab394;
+}
+
+.testimonial-01 .owl-dot.active span {
+  background-color: #1ab394;
+}
+
+.testimonial-02 .testimonial-item::before {
+  color: #1ab394;
+}
+
+.testimonial-02 .owl-dot.active span {
+  background-color: #1ab394;
+}
+
+.blog-01 .blog-link a:hover {
+  color: #1ab394;
+}
+
+.blog-02 .blog-link a:hover {
+  color: #1ab394;
+}
+
+.blog-04 .blog-link a:hover {
+  color: #139e82;
+}
+
+.resume-01 .timeline-year {
+  background: #1ab394;
+}
+
+.resume-01 .svg-inline--fa {
+  color: #1ab394;
+}
+
+.contact-01 .item-icon {
+  color: #1ab394;
+}
+
+.contact-02 .item-icon {
+  color: #1ab394;
+}
+
+footer li a {
+  color: #1ab394;
+}
+
+footer li a:hover {
+  color: #139e82;
+}
+
+.return-to-top {
+  background-color: #1ab394;
+}
+
+.sidebar-toggler {
+  background-color: #1ab394;
+}
+
+.sidebar-list .list-group-item:hover, .sidebar-list .list-group-item.active {
+  color: #1ab394 !important;
+}
+
+.sidebar-page .sidebar .social-icon a:hover {
+  color: #1ab394;
+}
+
+.entry-meta ul li i {
+  color: #1ab394;
+}
+
+.blog-single .comment-author p a {
+  color: #1ab394;
+}
+
+.blog-single .aside-item ul li span {
+  background-color: #1ab394;
+}
+
+.blog-single .aside-item ul li a:hover {
+  color: #1ab394;
+}
+
+.blog-single .about-description-box p::before {
+  background-color: #1ab394;
+}
+
+.page-item.active .page-link, .page-link:hover {
+  border-color: #1ab394 !important;
+  background-color: #1ab394 !important;
+}
+
+.single-portfolio .aside-item-portfolio ul li a {
+  color: #1ab394;
+}
+/*# sourceMappingURL=citrus.css.map */

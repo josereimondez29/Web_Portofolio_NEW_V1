@@ -1,0 +1,229 @@
+@import "colorfull-variable";
+
+//Component
+.base-color{
+    color: $pink !important;
+}
+.pill-button-01 {
+    background-color: $pink;
+    &:hover{
+        background-color: $pink-hover;
+    }
+}
+.pill-button-01 {
+    background-color: $pink !important;
+    &:hover{
+        background-color: $pink-hover !important;
+    }
+}
+.title-box h6{
+    color: $pink;
+}
+.title-box-03 h2{
+    color: $pink;
+}
+
+//Preloader
+.spinner {
+    border-top-color: $pink;
+}
+.loader .letter-animation::before {
+    color: $pink;
+}
+//Header
+.header{
+    nav a:hover {
+        color: $pink !important;
+    }
+    nav a.navbar-brand:hover {
+        color: $pink !important;
+    }
+    nav .nav-pills a.active {
+        color: $pink;
+    }
+} 
+//Hero-03
+.hero-03 {
+    .social-icon  li a:hover{
+        color: $pink;
+    }
+}
+
+//Counted01
+.counted-box-01{
+    .count-number {
+        color: $pink;
+    }
+}
+//Counted-02{
+.counted-box-02{
+    .count-number {
+        color: $pink;
+    }
+}
+//Skills-01
+.skills-01{
+    .skillbar-bar {
+        background: $pink;
+    }
+    .skill-bar-percent {
+        border-color: $pink;
+        color: $pink;
+    }
+    .skill-bar-percent .arrow {
+        border-color: $pink;
+    }
+}
+.resume-01{
+    .timeline-icon {
+        border: 1px solid $pink;
+        background-color: $pink;
+    }
+    .timeline-boxes::before {
+        background-color: $pink;
+    }
+    .timeline-contents::before {
+        background-color: $pink;
+    }
+} 
+//Services
+.services-01{
+    .services-icon{
+        color: $pink;
+    }
+}
+.services-02{
+    .services-box:hover {
+        background-color: $pink !important;
+    }
+    .services-icon {
+        color: $pink;
+    }
+}
+.services-03{
+    .services-icon{
+        color: $pink;
+    }
+}
+.services-04{
+    .services-box:hover{
+        background-color: $pink !important;
+    }
+    .services-icon {
+        color: $pink;
+    }
+}
+//Portfolio
+.portfolio-icon a{
+    background: $pink;
+}
+.portfolio-02.bg-portfolio {
+    background-color: transparentize($color: $pink, $amount: 0.3);
+}
+.portfolio-filter{
+    li a.active , li a:hover{
+        background-color: $pink;
+    }
+}
+//Testimonial
+.testimonial-01{
+    .owl-dot.active span{
+        background-color: $pink; 
+    }
+}
+.testimonial-02{
+    .testimonial-item::before {
+        color: $pink;
+    }
+    .owl-dot.active span{
+        background-color: $pink; 
+    }
+}
+//Blog
+.blog-01{
+    .blog-link a:hover{
+        color: $pink;
+    }
+}
+.blog-02{
+    .blog-link a:hover{
+        color: $pink;
+    }
+}
+.blog-04 .blog-link a:hover {
+    color: $pink-hover
+}
+//Resume
+.resume-01{
+    .timeline-year {
+        background: $pink;
+    }
+    .svg-inline--fa {
+        color: $pink;
+    }
+}
+//contact-01
+.contact-01{
+    .item-icon {
+        color: $pink;
+    }
+}
+//Contact-02
+.contact-02{
+    .item-icon {
+        color: $pink;
+    }
+}
+//Footer
+footer{
+    li a {
+        color: $pink;
+    }
+    li a:hover{
+        color: $pink-hover;
+    }
+}
+//ReturnTop
+.return-to-top {
+    background-color: $pink;
+}
+//SideBar
+.sidebar-toggler {
+    background-color: $pink;
+}
+.sidebar-list .list-group-item:hover, .sidebar-list .list-group-item.active  {
+    color: $pink !important;
+}
+.sidebar-page .sidebar .social-icon a:hover{
+    color: $pink;
+}
+//Blog Single
+.entry-meta  ul li i {
+    color: $pink;
+} 
+.blog-single{
+    .comment-author p a {
+        color: $pink;
+    }
+    .aside-item ul li span {
+        background-color: $pink;
+    }
+    .aside-item ul li a:hover{
+        color: $pink;
+    }
+    .about-description-box p::before {
+        background-color: $pink;
+    }
+}
+//Pagination
+.page-item.active .page-link,.page-link:hover{
+    border-color: $pink !important;
+    background-color: $pink !important;
+}
+//Portfolio Single
+.single-portfolio{
+    .aside-item-portfolio ul li a{
+        color: $pink;
+    }
+}
+  

@@ -1,0 +1,63 @@
+@import "variable/variables";
+@import "mixin";
+
+//contact-01
+.contact-01{
+    .info-box {
+        margin-bottom: 3rem;
+    }
+    .item-icon {
+        float: left;
+        font-size: 40px;
+    }
+    .info-text {
+        margin-left: 3.75rem;
+        small{
+            font-weight: $font-weight-light;
+        }
+    }
+    .form-control{
+        @include form-control-box ;
+        background-color: #f8f8f8;
+    }
+}
+//Contact-02
+.contact-02{
+    text-align: center;
+    .form-control{
+        @include form-control-box ;
+        background-color: #ffff;
+    }
+    .item-icon {
+        font-size: 36px;
+        margin-bottom: 8px;
+    }
+    .info-text small{
+        font-weight: $font-weight-light;
+    }
+}
+
+#message.toast {
+    max-width: 500px;
+    padding: 2px 0 1px;
+    position: absolute;
+    top: -2px;
+    display: inline-block;
+    left: 200px;
+    border-radius: $rounded-sm;
+    color: #fafafa;
+}
+.toast button span {
+    position: relative;
+    top: 8px;
+}
+  
+ 
+  
+  
+  
+
+  
+  
+  
+  

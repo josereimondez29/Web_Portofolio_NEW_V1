@@ -1,0 +1,739 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <!-- Basic Page Needs -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Titles -->
+        <title>WESTIN - Fully Responsive Personal Template</title>
+
+        <!-- Specific Meta -->
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <meta name="author" content="Retrina Group" />
+
+        <!--  FavIcon  -->
+        <link rel="shortcut icon" href="http://placehold.it/125x125">
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;1,300&display=swap" rel="stylesheet">
+
+
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/LineIcons.css">
+        <link rel="stylesheet" href="css/prettify.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body class="pt-0" data-spy="scroll" data-target="#scrollspy" data-offset="1">
+
+        <!--    SideBar Start    -->
+        <div class="sidebar py-1 px-4 sidebar-pag">
+        <img class="border-0 border-bottom img-fluid w-50" src="img/logo.png" alt="/"/>
+        <div id="scrollspy" class="list-group sidebar-list">
+            <a class="list-group-item" href="#welcome">Welcome</a>
+            <a class="list-group-item" href="#html-structure">HTML Structure</a>
+            <a class="list-group-item" href="#fonts">Fonts</a>
+            <a class="list-group-item" href="#CSS-Structure"> SCSS-CSS</a>
+            <a class="list-group-item" href="#media-screen">Media Screen</a>
+            <a class="list-group-item" href="#java-script">Java Script</a>
+            <a class="list-group-item" href="#westin-js">westin Js</a>
+            <a class="list-group-item" href="#image">Image</a>
+            <a class="list-group-item" href="#example-codes">Example Codes</a>
+            <a class="list-group-item" href="#theme Option">Theme Option</a>
+            <a class="list-group-item" href="#credit">Credit</a>
+
+
+        </div>
+        <a class="sidebar-toggler lni-chevron-left size" href="javascript:void(0);"></a>
+    </div>
+        <!--    SideBar End    -->
+
+        <div class="page-content">
+
+            <!--    Hero Start    -->
+            <div id="home" class="full-screen">
+                <div class="home-contents text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-12 ">
+                                <div class="text-center home-content mx-auto">
+                                    <h1 class="mb-4">westin User Documentation</h1>
+                                    <p>westin is the best choice for your new website design. It has a beautiful designed to bring the best user experience that you will love.We provide you a simple but useful documentation for your problems with customization.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--     Hero End     -->
+
+            <!--    Doc Content Start    -->
+            <div class="overflow-hidden">
+                <div class="container">
+                    <!--    welcome Start    -->
+                    <div id="welcome" class="welcome-section py-4">
+                        <h2 class="mb-3"> Welcome</h2>
+                        <p> Thanks for your purchasing westin HTML Template.Although this template is very easy to customize, We provide you a simple but useful documentation for your problems with customization.</p>
+                        <p> In this template we put comment for all sections in HTML files, All sections styles in CSS files and all sections JQuery in westin JS file.</p>
+                    </div>
+                    <!--     welcome End     -->
+
+                    <!--     Html Structure Start     -->
+                    <div id="html-structure" class="html-structure py-4">
+                        <h2 class="mb-3">HTML Structure</h2>
+                        <p>The template is based on <strong>Bootstrap 4.3.1</strong> Framework - <a href="http://getbootstrap.com" target="_blank">http://getbootstrap.com</a></p>
+                        <p>Bootstrap includes a responsive, mobile first fluid grid system that appropriately scales up to 12 columns as the device or viewport size increases.</p>
+                        <pre class="prettyprint my-4">
+<code>
+    &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-12&quot;&gt;
+            Level 1 column
+            &lt;div class=&quot;row&quot;&gt;
+                &lt;div class=&quot;col-md-6&quot;&gt;Level 2&lt;/div&gt;
+                &lt;div class=&quot;col-md-6&quot;&gt;Level 2&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+</code>
+                        </pre>
+                        <p>If you need more information, please visit this site: <a href="http://getbootstrap.com/css/#grid" target="_blank">http://getbootstrap.com/css/#grid</a></p>
+                        <p> In HTML files we used bootstrap container and container-fluid classes. when we need use all screen width we use container-fluid class and if we need a box little than our screen width we use container class in our sections. </p>
+                        <p>for better understanding you can see 'Hero Section'code below.</p>
+                        <pre class="prettyprint my-4">
+<code>
+      <!--    Hero Start    -->
+        <section class="hero-01 full-screen py-6" id="hero">
+            <div class="hero-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="hero-content">
+                                <h1 class="mb-0">Hi, I'M Angela Smith</h1>
+                                <h2 class="base-color">Ui/Ux Designer</h2>
+                                <p class="mb-0">Web designer from USA, California, San Francisco. I have rich experience in web site design and building</p>
+                                <ul class="pl-0 my-4 list-inline">
+                                    <li class="list-inline-item">
+                                        <h6>Email :</h6>
+                                        <p class="mb-0">mail@example.com</p>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <h6>Tel :</h6>
+                                        <p class="mb-0">+1 (123) 4566789</p>
+                                    </li>
+                                </ul>
+                                <a href="javascript:void(0);" class="pill-button-01 mr-3">Download Cv</a>
+                                <a href="#contact" class="black-pill-button-01 to-contact">Hire Me</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!--    Hero End    -->
+</code>
+                        </pre>
+                        <img src="img/container-img.png" alt="/" class="my-3">
+                        <p>For another sections that have Repetitious grid method you can use top example.In Services, Portfolio, Testimonials and Blog section you can see these Repetitious method and can add or remove them</p>
+                    </div>
+                    <!--      Html Structure End      -->
+
+                    <!--     Font Start     -->
+                    <div id="fonts" class="font py-4">
+                        <h2 class="mb-3">Fonts</h2>
+                        <p>Here We have two types of fonts. First is Google Fonts and The other is Font Icons</p>
+                        <p> We pick our fonts from <a href="https://fonts.google.com/" target="_blank"> Google Fonts </a>. In this website you can learn how to pick your favorite font and use that in your website template. </p>
+                        <pre class="prettyprint my-4">
+<code>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;1,300&display=swap" rel="stylesheet">
+</code>
+                        </pre>
+                        <p> Our Font Icons are from <a href="https://lineicons.com/icons/" target="_blank"> LineIcons </a> . In this website you can learn how to pick your favorite font icon and use that in your website template. But if you want customize your social icons or another Icons you can see the codes below </p>
+                        <p> In "Services Section" you can see "i" tags. In their class you see " lni lni-protection " and others. In <a href="https://lineicons.com/icons/" target="_blank"> LineIcons </a> wbesite you can pick your icon name and put it to class of "i" tag. We copy them below to show better.</p>
+                        <pre class="prettyprint my-4">
+<code>
+    <ul class="list-inline py-2 mb-0">
+        <li class="list-inline-item"><a href="javascript:void(0);"><i class="lni lni-facebook-original"></i></a></li>
+        <li class="list-inline-item"><a href="javascript:void(0);"><i class="lni lni-telegram-original"></i></a></li>
+        <li class="list-inline-item"><a href="javascript:void(0);"><i class="lni lni-pinterest"></i></a></li>
+        <li class="list-inline-item"><a href="javascript:void(0);"><i class="lni lni-dribbble"></i></a></li>
+        <li class="list-inline-item"><a href="javascript:void(0);"><i class="lni lni-instagram"></i></a></li>
+    </ul>
+</code>
+                        </pre>
+                        <h2 class="mb-3">Fonts in css </h2>
+                        <p> Fonts are very important for making template and text more and more beautiful.</p>
+                        <p>We should use them in CSS files. After picking one or more fonts from <a href="https://fonts.google.com/"> Google Fonts</a>, that website show you how to use them in your template or website. We bring an example for you from "General Styles" of "style.css" </p>
+                        <pre class="prettyprint my-4">
+<code>
+    /*-------------------------
+             GENERAL
+    -------------------------*/
+    body{
+         font-family: 'Poppins', sans-serif;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6{
+        font-family: 'Poppins', sans-serif;
+    }
+</code>
+                        </pre>
+                        <p> After all font families put a Backup font because sometimes some browsers can't support your font and try to read backup font at last if browser cant't read none of fonts will read "sans-serif" font.</p>
+                    </div>
+                    <!--      Font End      -->
+
+                    <!--     CSS Structure Start     -->
+                    <div id="CSS-Structure" class="css-structure py-4">
+                        <h2 class="mb-3"> SCSS-CSS Structure</h2>
+                        <p>Our all custom and external CSS is located in assets/css directory. And if you edit or work with SCSS you may go to the main assets/sass. Then you work Both. Some Example below:</p>
+                        <p> HTML is the structure of a template and CSS is the design. In CSS we paint and make codes beautiful.</p>
+                        <p> In westin HTML template CSS files, we use some libraries and make them powerful and more beautiful in Style CSS file.</p>
+                        <h2 class="mb-3"> Variables Scss :</h2>
+                        <p>In Scss file we use variable to some parameter that Repeated in different parts of our website in this way we Regulating and shorted the line of code.you can simply change the variable.  some of  variable is below you can see them.</p>
+                        <pre class="prettyprint my-4">
+<code>
+    // Font Family
+    $Poppins: 'Poppins', sans-serif;
+    $MUli: 'Muli', sans-serif;
+    $Barlow: 'Roboto Condensed', sans-serif;
+    $FontAwesome: 'FontAwesome','sans-serif';
+    $lineIcon: LineIcons, sans-serif;
+
+    // Font weight
+    $font-weight-light: 300;
+    $font-weight-normal: 400;
+    $font-weight-bold: 500;
+    $font-weight-semibold: 600;
+    $font-weight-extra-bold: 700;
+
+    // Font Size
+    $base-font-size: 16px;
+
+    // Border radius
+    $runded-0: 0;
+    $rounded-sm:8px;
+    $rounded: 16px;
+    $rounded-pill: 30px;
+    $rounded-circle: 50%;
+
+    // Transition
+    $transition: all 0.5s ease;
+    $second-transition: .8s ease-in-out;
+
+    //Box Shadow
+    $box-shadow: 3px 3px 3px #dadada, -3px -3px 3px #fafafa;
+    $box-shadow-inset: inset 3px 3px 3px #dadada, inset -3px -3px 3px #fafafa;
+    $flat-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
+    $flat-box-shadow-two: 0 1px 4px 0 rgba(15, 15, 20, 0.1);
+
+
+    //Color
+    $base-bg-light: #f1f3f6;
+    $base-bg-dark: #171717;
+    $color-body-dark:#0f0f0f;
+    $text-light: #f8f9fa;
+    $text-body: #212529;
+    $azure:#03dedf;
+
+    // Others
+    $golden-line-height: 1.618;
+    $w-100: 100% ;
+    $h-100: 100%;
+    $d-block: block;
+    $d-table: table;
+    $d-none: none;
+    $d-flex: flex;
+    $d-table-cell:table-cell;
+    $align-middle:middle;
+    $position-absolute: absolute;
+    $position-relative: relative;
+    $position-fixed: fixed;
+
+    $float-left: left;
+    $text-center: center;
+
+</code>
+                        </pre>
+                    </div>
+                    <!--      CSS Structure End      -->
+
+                    <!--      Media Screen Start      -->
+                    <div id="media-screen" class="media-screen py-4">
+                        <h2 class="mb-3">Media Screen</h2>
+                        <p>Bootstrap includes a responsive, mobile first fluid grid system that appropriately scales up to 12 columns as the device or viewport size increases. But sometimes text, images or ... don't work good in some screens. Because of this web designers and developers use "Media Screens" in CSS files to solve this problem. In westin template CSS we use some media screens to make our theme fully responsive for all screens. You can see an example from "style.css" of westin template below. </p>
+                        <pre class="prettyprint my-4">
+<code>
+   @media (max-width: 991px){
+     //Media Of Components(max-width: 991)//
+     .title-box h3 {
+        font-size: 52px;
+    }
+    .row-sticky {
+        display: block;
+    }
+    .col-sticky {
+        position: inherit;
+    }
+    .return-to-top{
+        right: 0;
+        border-radius: $rounded-sm 0 0 $rounded-sm;
+    }
+    //Media Of Hero(max-width: 991)//
+    .hero-03 {
+        padding-bottom: 8rem;
+        .personal-img img{
+            width: 200px;
+        }
+    }
+    .title-box h6{
+        letter-spacing: 7px;
+    }
+    //Media Of Counted(max-width: 991)//
+    .counted-box-02{
+        margin-top: 24px;
+    }
+    }
+</code>
+                        </pre>
+                    </div>
+                    <!--      Media Screen End      -->
+
+                    <!--     Java Script Start     -->
+                    <div id="java-script" class="java-script py-4">
+                        <h2 class="mb-3">Java Script</h2>
+                        <p>after finishing template structure (HTML) and give that a beautiful design (CSS) we should give our template Mobility. We do this Important factor with "Java Script" and that awesome library "JQuery". westin multipurpose HTML template use beautiful and useful Java scripts like Swipper(for sliders), Isotope(for Images categories) and ... for users and customers. using and customize this template scripts are very easy and we describe important thing and options.</p>
+                    </div>
+                    <!--      Java Script End      -->
+
+                    <!--     westin Js Start     -->
+                    <div id="westin-js" class="westin-js py-4">
+                        <h2 class="mb-3">westin JS File</h2>
+                        <p>"westin.js" is  main JavaScript file that all libraries are customize and ready for run there.Forexample you can see Theme Option below.This js is use to changing light mode to dark just with one click</p>
+                        <pre class="prettyprint my-4">
+<code>
+     // Theme Option
+
+    $('.color-scheme li .dark-scheme').click(function() {
+        $("body").addClass('westin-dark');
+        $('.color-scheme li a').removeClass('active');
+        $(this).addClass('active');
+        //Change the logo img property
+        $("#logo").attr("src", 'assets/img/westin-logo-dark.png');
+    });
+
+    $('.color-scheme li .light-scheme').click(function() {
+        $("body").removeClass('westin-dark');
+        $('.color-scheme li a').removeClass('active');
+        $(this).addClass('active');
+        //Change the logo img property
+        $("#logo").attr("src", 'assets/img/westin-logo.png');
+    });
+
+    $('.theme-skin li .border-skin').click(function() {
+        $("body").addClass('border-style-demo');
+        $('.theme-skin li a').removeClass('active');
+        $(this).addClass('active');
+    });
+
+    $('.theme-skin li .flat-skin').click(function() {
+        $("body").removeClass('border-style-demo');
+        $('.theme-skin li a').removeClass('active');
+        $(this).addClass('active');
+    });
+
+    $("ul.pattern .color1").click(function () {
+        return $("#option-color").attr("href", "assets/css/color/azure.css"), !1
+    });
+    $("ul.pattern .color2").click(function () {
+        return $("#option-color").attr("href", "assets/css/color/blue.css"), !1
+    });
+    $("ul.pattern .color3").click(function () {
+        return $("#option-color").attr("href", "assets/css/color/purple.css"), !1
+    });
+    $("ul.pattern .color4").click(function () {
+        return $("#option-color").attr("href", "assets/css/color/dark-purple.css"), !1
+    });
+    $("ul.pattern .color5").click(function () {
+        return $("#option-color").attr("href", "assets/css/color/golden.css"), !1
+    });
+    $("ul.pattern .color6").click(function () {
+        return $("#option-color").attr("href", "assets/css/color/green.css"), !1
+    });
+    $("ul.pattern .color7").click(function () {
+        return $("#option-color").attr("href", "assets/css/color/citrus.css"), !1
+    });
+    $("ul.pattern .color8").click(function () {
+        return $("#option-color").attr("href", "assets/css/color/light-orange.css"), !1
+    });
+    $("ul.pattern .color9").click(function () {
+        return $("#option-color").attr("href", "assets/css/color/orange.css"), !1
+    });
+    $("ul.pattern .color10").click(function () {
+        return $("#option-color").attr("href", "assets/css/color/red.css"), !1
+    });
+    $("ul.pattern .color11").click(function () {
+        return $("#option-color").attr("href", "assets/css/color/pink.css"), !1
+    });
+    $("ul.pattern .color12").click(function () {
+        return $("#option-color").attr("href", "assets/css/color/mono.css"), !1
+    });
+    $("#color-switcher .pallet-button").click(function () {
+        return $("#color-switcher .color-pallet").toggleClass('show'), !1
+    })
+</code>
+                        </pre>
+                    </div>
+                    <!--      westin Js End      -->
+
+                    <!--     Images Start     -->
+                    <div id="image" class="image py-4">
+                        <h2 class="mb-3">Images</h2>
+                        <p> Images makes templates more beautiful and useful. In westin Multipurpose HTML templates we have Slider, Background, Banner, Portfolio, Blog and ... Images. Images comes with "img" tag in HTML files. You can put your image URL in this tag and see that on your website. You can see some sample "img tags" in "Portfolio Section" below</p>
+                        <pre class="prettyprint my-4">
+<code>
+     <!--  Item 01  -->
+    .
+    .
+    <img src="assets/img/portfolio-01.jpg" alt="/">
+    .
+    .
+     <!--  Item 02  -->
+    .
+    .
+    <img src="assets/img/portfolio-01.jpg" alt="/">
+    .
+    .
+     <!--  Item 03  -->
+    .
+    .
+    <img src="assets/img/portfolio-01.jpg" alt="/">
+    .
+    .
+</code>
+                        </pre>
+                        <p>"alt" In "img" tag is the name of image for search engines and browsers. When a browser can't show image, user see the name in "alt" and know what image was in this section.</p>
+                        <p>We put "/" in "alt" in "img" tags because of this is only a template. But you must put your images name because of Seo Optimize and your users.</p>
+                        <p>Images URL in portfolio section items are in two tags, first is "img" tags and other is "a" tags. We described "img" tags in top, But what is "a" tags here and what is their usage?</p>
+                        <h2 class="mb-3">Images in css</h2>
+                        <p>Images in CSS are different from HTML. We often use CSS for background images and define their width, height, position and ... . We bring background images styles from "style.css" for you below. </p>
+                        <pre class="prettyprint my-4">
+<code>
+    //Hero-01
+    .hero-01 {
+      background: url("../img/bg-home-01.jpg") no-repeat;
+      background-size: cover;
+    }
+</code>
+                        </pre>
+                        <p>When we want bring an image for background in "Style CSS" we use "background-image: url(sample/img/image.jpg)". But when we want to use another properties after images URL we must change "background" to "background".</p>
+                    </div>
+                    <!--      Images End      -->
+
+                    <!--    Example Code Start     -->
+                    <div id="example-codes" class="example-codes py-4">
+                        <p>you Can See Some Example Code in some section to understand better how to customisation your website</p>
+                        <h2 class="mb-3">About</h2>
+                        <p>In westin Html Theme we have different "About Section" you can use one of theme you wanted.In this section you can explain about your self and show the images for better clarification</p>
+                        <pre class="prettyprint my-4">
+<code>
+
+        <!--   About Start   -->
+        <section id="about" class="about-01 py-6">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="about-image">
+                            <img src="assets/img/about-01.jpg" alt="/">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mt-4 mt-lg-0">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="title-box text-left">
+                                    <h6>about me</h6>
+                                    <h3>My mission is design develop the best Web sites around.</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="about-text">Hello! I’m Angela Doe. Web designer from USA, California, San Francisco. I have rich experience in web site design and building, also I am good at wordpress. I love to talk with you about our unique.I help you build brand for your business</p>
+                        <div id="count-up">
+                            <div class="counted-box-01">
+                                <div class="row">
+                                    <!-- Item-01 -->
+                                    <div class="col-4 count-item">
+                                        <div class="count-content">
+                                            <span class="timer count-number" data-from="0" data-to="793" data-speed="5000">0</span>
+                                        <p class="mb-0">Get Award</p>
+                                        </div>
+                                    </div>
+                                    <!-- Item-02 -->
+                                    <div class="col-4 count-item">
+                                        <div class="count-content">
+                                            <span class="timer count-number" data-from="0" data-to="649" data-speed="5000">0</span>
+                                            <p class="mb-0">Project Done</p>
+                                        </div>
+                                    </div>
+                                    <!-- Item-03 -->
+                                    <div class="col-4 count-item">
+                                        <div class="count-content">
+                                            <span class="timer count-number" data-from="0" data-to="793" data-speed="5000">0</span>
+                                        <p class="mb-0">Happy Client</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--   Skills Start   -->
+                <div class="skills-01">
+                    <div class="row pt-6">
+                        <div class="col-lg-6">
+                            <div class="title-box text-left">
+                                <h6>my skills</h6>
+                                <h3>I have been able to experience and developing skill with this type of learning and facilitates.</h3>
+                            </div>
+                            <p class="mb-0">I was doing everything in my power to provide me with all the experiences to provide cost-effective and high quality products to satisfy my customers all over the world</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <div id="skills">
+                                <div class="col-lg-12 skill-box">
+                                    <div class="skillbar clearfix" data-percent="90%">
+                                        <div class="skillbar-title"><span>HTML</span></div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">
+                                            90%
+                                            <div class="arrow"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 skill-box">
+                                    <div class="skillbar clearfix " data-percent="85%">
+                                        <div class="skillbar-title"><span>CSS</span></div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">
+                                            85%
+                                            <div class="arrow"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 skill-box">
+                                    <div class="skillbar clearfix" data-percent="75%">
+                                        <div class="skillbar-title"><span>PHP</span></div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">
+                                            75%
+                                            <div class="arrow"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 skill-box">
+                                    <div class="skillbar clearfix" data-percent="60%">
+                                        <div class="skillbar-title"><span>JQuery</span></div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">
+                                            60%
+                                            <div class="arrow"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--    Skills End    -->
+            </div>
+        </section>
+        <!--    About End    -->
+</code>
+                        </pre>
+                        <p>You Can See About Section Picture Below</p>
+                        <img src="img/about-image.png" alt="/">
+                        <h2 class="mb-3">Services</h2>
+                        <p>In Services section you can explain about the services that you have.</p>
+                        <pre class="prettyprint my-4">
+<code>
+   <!--   Services start  -->
+        <section id="services" class="services-01 py-6 bg-grey">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="title-box text-left">
+                            <h6>best feature</h6>
+                            <h3>Services</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <!-- Item 01 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="services-box">
+                            <i class="fas fa-palette services-icon"></i>
+                            <div class="services-content">
+                                <h5 class="services-head">Graphic Design</h5>
+                                <p class="services-description mb-0">specialise in Graphic design Whether you need to create a new website or updat.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 02 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="services-box">
+                            <i class="fas fa-desktop services-icon"></i>
+                            <div class="services-content">
+                                <h5 class="services-head">Web Design</h5>
+                                <p class="services-description mb-0">design, build & maintain websites that keep pace with our digital world.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 03 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="services-box">
+                            <i class="fas fa-pencil-ruler services-icon"></i>
+                            <div class="services-content">
+                                <h5 class="services-head">App Development</h5>
+                                <p class="services-description mb-0">build mobile first solutions for ios, Android taking your idea to polished product.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 04 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="services-box">
+                            <i class="fas fa-music services-icon"></i>
+                            <div class="services-content">
+                                <h5 class="services-head">Musice Writing</h5>
+                                <p class="services-description mb-0">Music copying, writing, creat, transcription, arranging composition services.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 05 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="services-box">
+                            <i class="fas fa-bullhorn services-icon"></i>
+                            <div class="services-content">
+                                <h5 class="services-head">Digital Marketing</h5>
+                                <p class="services-description mb-0">Generate your sales opportunity with our best digital marketing services.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 06 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="services-box">
+                            <i class="fas fa-paint-brush services-icon"></i>
+                            <div class="services-content">
+                                <h5 class="services-head">Brand Identity</h5>
+                                <p class="services-description mb-0">I can manufacture magic that allows your brand to stand out from the crowd.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--   Services End  -->
+</code>
+                        </pre>
+                        <img src="img/services-img.png" alt="/">
+                    </div>
+                    <!--      Example Code End      -->
+
+                    <!--    Theme Option Optiom     -->
+                    <div id="theme Option" class="example-codes py-4">
+                        <h2 class="mb-3">Theme Option</h2>
+                        <h3 class="mb-3">Dark Mode</h3>
+                        <p>We Have Both Dark and Light mode for westin website. you can choose one of theme that you prefer.If you choose light mode do not need adding any thing but if yo choose dark mode the only thing that you do is adding class="westin-dark" to body tag</p>
+                        <h3 class="mb-3">Border Style</h3>
+                        <p>Also westin theme have 2 design the first is background color design and the second is borderStyle design you can choose one that you prefer. </p>
+                        <p>If you want background Style do not adding any thing but if you choose borderStyle you should adding border class="border-style-demo" to body tag</p>
+                        <h3 class="mb-3">Color Pallet</h3>
+                        <p>In Westin Temlate we have different color pallet and you can choose your favorite color for your template
+                            the only thing you should do is adding your prefer color link after Custom Style Link at the top of html file. for better understanding you can see code below i bring red color css.
+                        </p>
+                        <pre class="prettyprint my-4">
+<code>
+    <!--  Custom Style CSS  -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!--  Color CSS  -->
+    <link rel="stylesheet" href="assets/css/color/red.css" id="option-color">
+</code>
+                        </pre>
+                    </div>
+
+
+                    <!--    Credit Start     -->
+                    <div id="credit" class="credit py-4">
+                        <h2 class="mb-3">Credit</h2>
+                        <ul>
+                            <li>
+                                <a href="https://jquery.com">jQuery v3.4.1</a>
+                            </li>
+                            <li>
+                                <a href="http://getbootstrap.com">Bootstrap v4.3.1 </a>
+                            </li>
+                            <li>
+                                <a href="http://lineicons.com">Lineicons</a>
+                            </li>
+                            <li>
+                                <a href="https://fontawesome.com/">fontawesome</a>
+                            </li>
+                            <li>
+                                <a href="https://owlcarousel2.github.io/OwlCarousel2/">owlcarousel</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/mhuggins/jquery-countTo">Count To</a>
+                            </li>
+                            <li>
+                                <a href="http://isotope.metafizzy.co">Isotope Packaged v3.0.2</a>
+                            </li>
+                            <li>
+                                <a href="https://www.freepik.com">freepik</a>
+                            </li>
+                            <li>
+                                <a href="http://https://www.pexels.com">pexels</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/mhuggins/jquery-countTo">Count To</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--     Credit End      -->
+
+                    <!--    Footer Start     -->
+                    <footer>
+                        <p class="text-center">Copyright © 2020. Template has been designed by Retrina</p>
+                    </footer>
+                    <!--     Footer End     -->
+                    
+
+
+                </div>
+            </div>
+            <!--    Doc Content End    -->
+			
+
+
+        </div>
+
+        <script src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/prettify/prettify.js"></script>
+        <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?lang=css&skin=sunburst"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/layout.js"></script>
+        <script src="js/jquery.localscroll-1.2.7.js" type="text/javascript"></script>
+        <script src="js/highlight.js" type="text/javascript"></script>
+        <script src="js/jquery.scrollTo-1.4.3.1.js" type="text/javascript"></script>
+        <script src="js/jquery.easing.min.js"></script>
+        <!--  Particle Js  -->
+        <script src="js/particles-01.min.js"></script>
+        <!--  particles app Js  -->
+        <script src="js/particles-01.app.js"></script>
+        <script src="js/westin.js"></script>
+
+    </body>
+</html>
