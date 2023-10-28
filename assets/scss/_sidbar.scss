@@ -1,0 +1,103 @@
+@import "variable/variables";
+@import "mixin";
+
+.page-content {
+    width: 100%;
+    float: left;
+    padding-left: 250px;
+    transition: all 0.3s ease;
+}
+.page-content.full-width {
+    padding-left: 0;
+}
+.sidebar-page{
+    section{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .sidebar {
+        position: $position-fixed;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        width: 250px;
+        height: 100vh;
+        transition: $transition;
+        z-index: 1030;
+        box-shadow: $flat-box-shadow;
+        background-color: #fff;
+        .sidebar-text p {
+            text-align: justify;
+            hyphens: auto; 
+        }
+        .sidebar-list {
+            min-height: 65%;
+            display: $d-flex;
+            flex-direction: column;
+            text-align: left;
+        }
+        .sidebar-list .list-group-item {
+            padding: 0.75rem 0;
+            margin: 0;
+            border: none;
+            background-color: transparent !important;
+            text-transform: uppercase;
+            color: #010101;
+        }
+        .westin-logo {
+            margin-bottom: 1rem;
+            img {
+                width: 70%;
+                display: block;
+                margin: 0 auto;
+                max-width: 200px !important; 
+            }
+        }
+        .social-icon {
+            position: absolute;
+            bottom: 0;
+        }
+        .social-icon a {
+            font-size: 16px;
+            padding: 5px; 
+            color: #010101;
+        }
+        .sidebar.hide {
+            left: -250px; 
+        }
+    }
+} 
+
+.sidebar-toggler {
+    display: none;
+    position: absolute;
+    top: 91px;
+    right: 0;
+    z-index: 1000;
+    transition: all 0.3s ease;
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    border-radius: 8px 0 0 8px;
+    color: #fff;
+    &:hover{
+        color: #fff;
+    }
+    &.move {
+        right: -38px;
+        border-radius: 0 8px 8px 0;
+    } 
+}
+  
+ 
+    
+ 
+    
+    
+  
+  
+  
+  
+ 
+  

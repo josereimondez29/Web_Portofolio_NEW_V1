@@ -1,0 +1,190 @@
+@import "variable/variables";
+@import "mixin";
+
+
+//portfolio-01
+.portfolio-01{
+    .portfolio-item {
+        margin-top: 30px;
+    }
+    .portfolio-item:last-child a {
+        top: 52px;
+    }
+    .portfolio-box {
+        position: $position-relative;
+        &:hover .portfolio-overlay {
+            opacity: 1;
+            visibility: visible;
+            border-radius: $rounded-sm;
+        }
+    }
+    .portfolio-overlay {
+        @include portfolio-overlay;
+        border-radius: 50%;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        visibility: hidden;
+    }
+    .portfolio-overlay-content {
+        position: relative;
+        top: 50%;
+        transform: translate(0, -50%);
+        text-align: center;
+        padding: 0 64px;
+    }
+    .portfolio-img img {
+        @include image-box;
+    }
+    .portfolio-category {
+        @include portfolio-category;
+    }
+    .portfolio-icon a {
+        @include portfolio-icon;
+    }
+}
+  
+
+//portfolio-02
+.portfolio-02{
+    .portfolio-filter{
+        margin-top: 36px;
+        text-align: center;
+        li a{
+            border-radius: $rounded-sm;
+            display: $d-block;
+            padding: 6px 16px;
+            transition: $transition;
+            color: #010101;
+        }
+        li a.active , li a:hover{
+            color: $white;
+        }
+    }
+    .portfolio-box{
+        overflow: hidden;
+        position: $position-relative;
+        border-radius: $rounded-sm;
+        margin-top: 30px;
+        &::before{
+            @include portfolio-overlay;
+            content: "";
+            top: 30px;
+            right: 30px;
+            bottom: 30px;
+            left: 30px;
+            transform: scale(0.8);
+        }
+        &:hover::before {
+            transform: scale(1);
+            opacity: 1;
+        }
+        &:hover .portfolio-overlay-content  {
+            opacity: 1;
+        }
+    }
+    .portfolio-overlay-content {
+        position: $position-absolute;
+        width: $w-100;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: $text-center;
+        opacity: 0;
+        padding: 0 64px;
+    }
+    .portfolio-img img {
+        @include image-box;
+    }
+    .portfolio-category {
+        @include portfolio-category;
+    }
+    .portfolio-icon a {
+        @include portfolio-icon;
+    }
+    
+}
+
+
+//portfolio-03
+.portfolio-02.bg-portfolio {
+    margin-bottom: 200px;
+    .portfolio-body {
+        margin-bottom: -110px;
+    }
+    .title-box-03{
+        color: #fff;
+        h2{
+            color: #fff;
+        }
+    }
+    .portfolio-linked-more {
+        bottom: -150px;
+        left: calc(50% - 68px);
+        position: relative;
+        display: inline-block;
+      }
+}
+
+//Portfolio-04
+.portfolio-boxes-04{
+    .portfolio-item{
+        padding: 0;
+    }
+    .portfolio-box{
+        border-radius: 0;
+        margin-top: 0;
+    }
+    .portfolio-img img{
+        border-radius: 0;
+    }
+}
+
+//PortfolioSingle
+.single-portfolio{
+    .entry-image img {
+         @include image-box;
+    }
+    .entry-content {
+        padding: 24px;
+        img{
+             @include image-box;
+        }
+    }
+    .aside-box {
+        @include aside-boxes;
+    }
+    .aside-title {
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 24px;
+    }
+    .aside-title h6 {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 15px;
+        font-weight: 600;
+    }
+    .aside-title::after {
+        @include aside-title-border;
+    }
+    .single-post {
+        background-color: #f8f8f8;
+        border-radius: 16px;
+        padding-bottom: 64px;
+    }
+    .aside-item-portfolio ul li {
+        display: flex;
+        align-items: center;
+        padding: 0 16px 12px 0;
+        margin-bottom: 12px;
+        border-bottom: 1px solid #e3e5d2;
+        font-size: 14px;
+    }
+    .aside-item-portfolio ul li a {
+        margin-right: 8px;
+    }
+} 
+
+
+  

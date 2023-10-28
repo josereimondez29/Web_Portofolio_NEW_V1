@@ -1,0 +1,230 @@
+@import "colorfull-variable";
+
+//Component
+.base-color{
+    color: $purple !important;
+}
+.pill-button-01 {
+    background-color: $purple;
+    &:hover{
+        background-color: $purple-hover;
+    }
+}
+.pill-button-01 {
+    background-color: $purple;
+    &:hover{
+        background-color: $purple-hover;
+    }
+}
+.title-box h6{
+    color: $purple;
+}
+.title-box-03 h2{
+    color: $purple;
+}
+
+//Preloader
+.spinner {
+    border-top-color: $purple;
+}
+.loader .letter-animation::before {
+    color: $purple;
+}
+//Header
+.header{
+    nav a:hover {
+        color: $purple !important;
+    }
+    nav a.navbar-brand:hover {
+        color: $purple !important;
+    }
+    nav .nav-pills a.active {
+        color: $purple;
+    }
+} 
+//Hero-03
+.hero-03 {
+    .social-icon  li a:hover{
+        color: $purple;
+    }
+}
+
+//Counted01
+.counted-box-01{
+    .count-number {
+        color: $purple;
+    }
+}
+//Counted-02{
+.counted-box-02{
+    .count-number {
+        color: $purple;
+    }
+}
+//Skills-01
+.skills-01{
+    .skillbar-bar {
+        background: $purple;
+    }
+    .skill-bar-percent {
+        border-color: $purple;
+        color: $purple;
+    }
+    .skill-bar-percent .arrow {
+        border-color: $purple;
+    }
+}
+.resume-01{
+    .timeline-icon {
+        border: 1px solid $purple;
+        background-color: $purple;
+    }
+    .timeline-boxes::before {
+        background-color: $purple;
+    }
+    .timeline-contents::before {
+        background-color: $purple;
+    }
+} 
+//Services
+.services-01{
+    .services-icon{
+        color: $purple;
+    }
+}
+.services-02{
+    .services-box:hover {
+        background-color: $purple !important;
+    }
+    .services-icon {
+        color: $purple;
+    }
+}
+.services-03{
+    .services-icon{
+        color: $purple;
+    }
+}
+.services-04{
+    .services-box:hover{
+        background-color: $purple !important;
+    }
+    .services-icon {
+        color: $purple;
+    }
+}
+//Portfolio
+.portfolio-icon a{
+    background: $purple;
+}
+.portfolio-02.bg-portfolio {
+    background-color: transparentize($color: $purple, $amount: 0.3);
+}
+.portfolio-filter{
+    li a.active , li a:hover{
+        background-color: $purple;
+    }
+}
+//Testimonial
+.testimonial-01{
+    .owl-dot.active span{
+        background-color: $purple; 
+    }
+}
+.testimonial-02{
+    .testimonial-item::before {
+        color: $purple;
+    }
+    .owl-dot.active span{
+        background-color: $purple; 
+    }
+}
+//Blog
+.blog-01{
+    .blog-link a:hover{
+        color: $purple;
+    }
+}
+.blog-02{
+    .blog-link a:hover{
+        color: $purple;
+    }
+}
+.blog-04 .blog-link a:hover {
+    color: $purple-hover;
+}
+//Resume
+.resume-01{
+    .timeline-year {
+        background: $purple;
+    }
+    .svg-inline--fa {
+        color: $purple;
+    }
+}
+//contact-01
+.contact-01{
+    .item-icon {
+        color: $purple;
+    }
+}
+//Contact-02
+.contact-02{
+    .item-icon {
+        color: $purple;
+    }
+}
+//Footer
+footer{
+    li a {
+        color: $purple;
+    }
+    li a:hover{
+        color: $purple-hover;
+    }
+}
+//ReturnTop
+.return-to-top {
+    background-color: $purple;
+}
+//SideBar
+.sidebar-toggler {
+    background-color: $purple;
+}
+.sidebar-list .list-group-item:hover, .sidebar-list .list-group-item.active  {
+    color: $purple !important;
+}
+.sidebar-page .sidebar .social-icon a:hover{
+    color: $purple;
+}
+//Blog Single
+.entry-meta  ul li i {
+    color: $purple;
+} 
+.blog-single{
+    .comment-author p a {
+        color: $purple;
+    }
+    .aside-item ul li span {
+        background-color: $purple;
+    }
+    .aside-item ul li a:hover{
+        color: $purple;
+    }
+    .about-description-box p::before {
+        background-color: $purple;
+    }
+}
+//Pagination
+.page-item.active .page-link,.page-link:hover{
+    border-color: $purple !important;
+    background-color: $purple !important;
+}
+//Portfolio Single
+.single-portfolio{
+    .aside-item-portfolio ul li a{
+        color: $purple;
+    }
+}
+
+  

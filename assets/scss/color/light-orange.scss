@@ -1,0 +1,230 @@
+@import "colorfull-variable";
+
+//Component
+.base-color{
+    color: $light-orange !important;
+}
+.pill-button-01 {
+    background-color: $light-orange;
+    &:hover{
+        background-color: $light-orange-hover;
+    }
+}
+.pill-button-01 {
+    background-color: $light-orange !important;
+    &:hover{
+        background-color: $light-orange-hover !important;
+    }
+}
+.title-box h6{
+    color: $light-orange;
+}
+.title-box-03 h2{
+    color: $light-orange;
+}
+
+//Preloader
+.spinner {
+    border-top-color: $light-orange;
+}
+.loader .letter-animation::before {
+    color: $light-orange;
+}
+//Header
+.header{
+    nav a:hover {
+        color: $light-orange !important;
+    }
+    nav a.navbar-brand:hover {
+        color: $light-orange !important;
+    }
+    nav .nav-pills a.active {
+        color: $light-orange;
+    }
+} 
+//Hero-03
+.hero-03 {
+    .social-icon  li a:hover{
+        color: $light-orange;
+    }
+}
+
+//Counted01
+.counted-box-01{
+    .count-number {
+        color: $light-orange;
+    }
+}
+//Counted-02{
+.counted-box-02{
+    .count-number {
+        color: $light-orange;
+    }
+}
+//Skills-01
+.skills-01{
+    .skillbar-bar {
+        background: $light-orange;
+    }
+    .skill-bar-percent {
+        border-color: $light-orange;
+        color: $light-orange;
+    }
+    .skill-bar-percent .arrow {
+        border-color: $light-orange;
+    }
+}
+.resume-01{
+    .timeline-icon {
+        border: 1px solid $light-orange;
+        background-color: $light-orange;
+    }
+    .timeline-boxes::before {
+        background-color: $light-orange;
+    }
+    .timeline-contents::before {
+        background-color: $light-orange;
+    }
+} 
+//Services
+.services-01{
+    .services-icon{
+        color: $light-orange;
+    }
+}
+.services-02{
+    .services-box:hover {
+        background-color: $light-orange !important;
+    }
+    .services-icon {
+        color: $light-orange;
+    }
+}
+.services-03{
+    .services-icon{
+        color: $light-orange;
+    }
+}
+.services-04{
+    .services-box:hover{
+        background-color: $light-orange !important;
+    }
+    .services-icon {
+        color: $light-orange;
+    }
+}
+//Portfolio
+.portfolio-icon a{
+    background: $light-orange;
+}
+.portfolio-02.bg-portfolio {
+    background-color: transparentize($color: $light-orange, $amount: 0.3);
+}
+.portfolio-filter{
+    li a.active , li a:hover{
+        background-color: $light-orange;
+    }
+}
+//Testimonial
+.testimonial-01{
+    .owl-dot.active span{
+        background-color: $light-orange; 
+    }
+}
+.testimonial-02{
+    .testimonial-item::before {
+        color: $light-orange;
+    }
+    .owl-dot.active span{
+        background-color: $light-orange; 
+    }
+}
+//Blog
+.blog-01{
+    .blog-link a:hover{
+        color: $light-orange;
+    }
+}
+.blog-02{
+    .blog-link a:hover{
+        color: $light-orange;
+    }
+}
+.blog-04 .blog-link a:hover {
+    color: $light-orange-hover
+}
+//Resume
+.resume-01{
+    .timeline-year {
+        background: $light-orange;
+    }
+    .svg-inline--fa {
+        color: $light-orange;
+    }
+}
+//contact-01
+.contact-01{
+    .item-icon {
+        color: $light-orange;
+    }
+}
+//Contact-02
+.contact-02{
+    .item-icon {
+        color: $light-orange;
+    }
+}
+//Footer
+footer{
+    li a {
+        color: $light-orange;
+    }
+    li a:hover{
+        color: $light-orange-hover;
+    }
+}
+//ReturnTop
+.return-to-top {
+    background-color: $light-orange;
+}
+//SideBar
+.sidebar-toggler {
+    background-color: $light-orange;
+}
+.sidebar-list .list-group-item:hover, .sidebar-list .list-group-item.active  {
+    color: $light-orange !important;
+}
+.sidebar-page .sidebar .social-icon a:hover{
+    color: $light-orange;
+}
+//Blog Single
+.entry-meta  ul li i {
+    color: $light-orange
+} 
+.blog-single{
+    .comment-author p a {
+        color: $light-orange
+    }
+    .aside-item ul li span {
+        background-color: $light-orange
+    }
+    .aside-item ul li a:hover{
+        color: $light-orange
+    }
+    .about-description-box p::before {
+        background-color: $light-orange;
+    }
+}
+//Pagination
+.page-item.active .page-link,.page-link:hover{
+    border-color: $light-orange !important;
+    background-color: $light-orange !important;
+}
+//Portfolio Single
+.single-portfolio{
+    .aside-item-portfolio ul li a{
+        color: $light-orange;
+    }
+}
+
+  

@@ -1,0 +1,102 @@
+@import "variable/variables";
+@import "mixin";
+
+
+.testimonial-01 {
+    background: url("../img/bg-testimonial-01.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.9);
+    .testimonial-image {
+        width: 20%;
+        float: left;
+    }
+    .testimonial-image img {
+        @include image-box;
+    }
+    .testimonial-content {
+        width: 75%;
+        float: left;
+        margin-left: 32px;
+    }
+    .testimonial-comment {
+        font-size: 22px;
+        font-style: italic;
+        margin-bottom: 0;
+    }
+    .testimonial-name {
+        font-size: 16px;
+        font-weight: 300 !important;
+        margin: 16px auto;
+    }
+    .testimonial-job{
+        display: block;
+    }
+    .owl-dots{
+        position: absolute;
+        left: 22%;
+        bottom: -10%;
+    }
+    .owl-dot span {
+        @include tetimonial-owl-dot;
+    }
+    .owl-dot.active span {
+        @include tetimonial-owl-dot-active;
+    }
+}
+//Testimonial-02
+.testimonial-02 {
+    .testimonial-item {
+        max-width: 750px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .testimonial-item::before {
+        content: "\eb65";
+        font-family: LineIcons, sans-serif;
+        font-size: 64px;
+        transform: rotateZ(180deg);
+        display: block;
+        margin: 18px 0;
+    }
+    .testimonial-image img {
+        width: 95px; 
+        margin: 0 auto;
+        padding: 4px;
+        border: 1px solid #ccc;
+        border-radius: 50%;
+    }
+    .testimonial-comment {
+        font-size: 18px;
+        font-weight: 300;
+        font-style: italic;
+        margin: 24px auto;
+    }
+    .testimonial-name, .testimonial-job {
+        font-size: 16px;
+        font-weight: 300 !important;
+        margin: 24px auto;
+    }
+    .owl-dots{
+        text-align: center;
+    }
+    .owl-dot span {
+        @include tetimonial-owl-dot;
+    }
+    .owl-dot.active span {
+        @include tetimonial-owl-dot-active;
+    }
+    
+}
+
+
+.testimonial-01.bg-transparent{
+  background-image: none;
+  box-shadow: none;
+}
+      
+ 
+      
+  
+    
+    

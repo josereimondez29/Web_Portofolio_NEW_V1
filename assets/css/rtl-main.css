@@ -1,0 +1,410 @@
+html {
+  direction: rtl;
+}
+
+body {
+  text-align: right;
+  direction: rtl;
+}
+
+.text-left {
+  text-align: right !important;
+}
+
+ul {
+  padding-right: 0;
+}
+
+.mfp-counter {
+  direction: ltr;
+}
+
+.color-switcher .color-pallet {
+  right: inherit;
+  left: -192px;
+  border-radius: 0 8px 8px 0;
+}
+
+.color-switcher .color-pallet.show {
+  right: inherit;
+  left: 0;
+}
+
+.color-switcher .pallet-button {
+  right: inherit;
+  left: 100%;
+  border-radius: 0 8px 8px 0;
+}
+
+.return-to-top {
+  right: inherit;
+  left: 15px;
+}
+
+@media (max-width: 991px) {
+  .return-to-top {
+    right: inherit;
+    left: 0;
+    border-radius: 0 8px 8px 0;
+  }
+}
+
+#toggle-menu .ml-auto {
+  margin-left: inherit !important;
+  margin-right: auto !important;
+}
+
+.ml-lg-auto {
+  margin-left: inherit !important;
+  margin-right: auto !important;
+}
+
+.mr-xl-5 {
+  margin-right: initial !important;
+  margin-left: 3rem !important;
+}
+
+.mr-lg-3 {
+  margin-right: initial !important;
+  margin-left: 1rem !important;
+}
+
+ul.pl-0 {
+  padding-left: inherit;
+  padding-right: 0 !important;
+}
+
+.list-inline-item:not(:last-child) {
+  margin-right: inherit;
+  margin-left: 0.5rem;
+}
+
+.pill-button-01.mr-3 {
+  margin-right: inherit !important;
+  margin-left: 1rem;
+}
+
+.hero-01 {
+  background-image: url("http://placehold.it/1920x1280") !important;
+}
+
+.about-02 .social-icon ul {
+  padding-right: 0;
+  margin-left: inherit;
+  margin-right: 100px;
+}
+
+.about-02 .social-icon ul li {
+  margin-right: 0;
+}
+
+.about-02 .social-icon::before {
+  left: inherit;
+  right: 0;
+}
+
+.skills-01 .skillbar-title {
+  left: inherit;
+  right: -17px;
+}
+
+.skills-01 .skillbar-title span {
+  margin-left: inherit;
+  margin-right: 18px;
+}
+
+.skills-01 .skillbar-bar {
+  float: right;
+}
+
+.skills-01 .skill-bar-percent:first-child {
+  right: calc(90% - 21px);
+}
+
+.skills-01 .skill-bar-percent .arrow {
+  display: inherit;
+}
+
+.skills-01 .skill-box:first-child .skill-bar-percent {
+  right: calc(90% - 21px);
+}
+
+.skills-01 .skill-box:nth-child(2) .skill-bar-percent {
+  right: calc(85% - 21px);
+}
+
+.skills-01 .skill-box:nth-child(3) .skill-bar-percent {
+  right: calc(75% - 21px);
+}
+
+.skills-01 .skill-box:nth-child(4) .skill-bar-percent {
+  right: calc(60% - 21px);
+}
+
+.services-01 .services-box {
+  text-align: right;
+}
+
+.services-03 .services-content {
+  padding-left: inherit;
+  padding-right: 48px;
+}
+
+.services-03 .services-icon {
+  float: right;
+}
+
+.resume-01 .timeline-boxe {
+  margin-left: inherit;
+  margin-right: 30px;
+}
+
+.resume-01 .timeline-boxes::before {
+  left: inherit;
+  right: 0;
+}
+
+.resume-01 .timeline-contents::before {
+  left: inherit;
+  right: -22px;
+}
+
+.resume-01 .timeline-icon {
+  left: inherit;
+  right: -37px;
+}
+
+.resume-01 .svg-inline--fa {
+  margin-right: inherit;
+  margin-left: 4px;
+}
+
+.testimonial-01 .testimonial-image {
+  float: right;
+}
+
+.testimonial-01 .owl-dots {
+  left: inherit;
+  right: 22%;
+}
+
+.blog-box .list-inline {
+  padding-right: 0 !important;
+}
+
+.blog-04 .col-md-12.col-lg-4:nth-child(3) .image-blog img {
+  border-top-right-radius: inherit;
+  border-top-left-radius: 8px;
+}
+
+.blog-04 .col-md-12.col-lg-4:first-child .image-blog img {
+  border-top-left-radius: inherit;
+  border-top-right-radius: 8px;
+}
+
+.blog-04 .col-md-12.col-lg-4:nth-child(3) .blog-box {
+  border-bottom-right-radius: inherit;
+  border-bottom-left-radius: 8px;
+}
+
+.blog-04 .col-md-12.col-lg-4:first-child .blog-box {
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: 8px;
+}
+
+.contact-01 .info-text {
+  margin-left: inherit;
+  margin-right: 3.75rem;
+}
+
+.contact-01 .item-icon {
+  float: right;
+}
+
+.sidebar-page .sidebar {
+  left: inherit;
+  right: 0;
+}
+
+.sidebar-page .page-content {
+  padding-left: inherit;
+  padding-right: 250px;
+}
+
+.sidebar-page .sidebar .sidebar-list .list-group-item {
+  margin-left: auto;
+}
+
+.blog-page-header .entry-meta ul li:not(:last-child) {
+  margin-right: inherit;
+  margin-left: 16px;
+}
+
+.pagination-box .page-item:last-child .page-link {
+  border-radius: 30px 0 0 30px;
+}
+
+.pagination-box .page-item.disabled .page-link {
+  border-radius: 0 30px 30px 0;
+}
+
+.blog-single .aside-title h6 {
+  margin-right: inherit;
+  margin-left: 15px;
+}
+
+.blog-single .search-boxes button.btn {
+  right: inherit;
+  left: 6px;
+}
+
+.blog-single .aside-item ul li {
+  padding: 0 0 12px 16px;
+}
+
+.blog-single .aside-item ul li span {
+  margin-left: inherit;
+  margin-right: auto;
+}
+
+.blog-single .post-image {
+  margin-right: inherit;
+  margin-left: 16px;
+}
+
+.blog-single .quotation {
+  border-left: none !important;
+  border-right: 3px solid #353535;
+}
+
+.blog-single .about-description-box {
+  padding-left: inherit;
+  padding-right: 32px;
+}
+
+.blog-single .about-description-box p::before {
+  left: inherit;
+  right: -30px;
+}
+
+.blog-single .image-comment {
+  left: inherit;
+  right: -36px;
+}
+
+.blog-single .comment-content {
+  padding-left: inherit;
+  padding-right: 32px;
+}
+
+.blog-single .comment-reply-link {
+  right: inherit;
+  left: 32px;
+}
+
+.blog-single .comments ul {
+  margin-left: inherit;
+  margin-right: 40px;
+}
+
+.single-portfolio .aside-item-portfolio ul li {
+  padding: 0 0 12px 16px;
+}
+
+.single-portfolio .aside-title h6 {
+  margin-right: inherit;
+  margin-left: 15px;
+}
+
+.single-portfolio .aside-item-portfolio ul li a {
+  margin-right: inherit;
+  margin-left: 8px;
+}
+
+#message.toast {
+  left: inherit;
+  right: 200px;
+}
+
+.sidebar-toggler {
+  right: inherit;
+  left: 0;
+  border-radius: 0 8px 8px 0;
+}
+
+.sidebar-toggler.move {
+  right: inherit;
+  left: -38px;
+  border-radius: 8px 0 0 8px;
+}
+
+@media (max-width: 1199px) {
+  .sidebar-toggler {
+    display: block;
+  }
+  .sidebar-page .page-content {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .sidebar-page .sidebar .sidebar-list {
+    text-align: center;
+  }
+  .sidebar-page .sidebar .sidebar-list .list-group-item {
+    margin-left: inherit;
+  }
+  .sidebar-page .sidebar.hide {
+    left: inherit;
+    right: -100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .blog-04 .col-md-12.col-lg-4:first-child .blog-box::after,
+  .blog-04 .col-md-12.col-lg-4:nth-child(3) .blog-box::after {
+    left: inherit;
+    right: -10px;
+    transform: rotate(-25deg);
+  }
+  .blog-04 .col-md-12.col-lg-4:nth-child(2) .blog-box::after {
+    right: inherit;
+    transform: rotate(25deg);
+    left: -10px;
+  }
+  .testimonial-01 .testimonial-image {
+    width: 30%;
+    float: inherit;
+  }
+  .testimonial-01 .testimonial-content {
+    margin-left: inherit;
+    margin-right: 0;
+    float: inherit;
+    width: 100%;
+    margin-top: 16px;
+  }
+  .testimonial-01 .testimonial-comment {
+    font-size: 18px;
+  }
+  .testimonial-01 .owl-dots {
+    left: inherit;
+    right: 0;
+  }
+}
+
+@media (max-width: 380px) {
+  #message.toast {
+    left: inherit;
+    right: 15px;
+  }
+  .about-02 .social-icon ul {
+    margin-left: inherit;
+    margin-right: 0;
+  }
+  .about-02 .social-icon a {
+    margin-right: inherit;
+    margin-left: 16px;
+  }
+  .blog-single .comments ul {
+    margin-right: 30px;
+  }
+}
+/*# sourceMappingURL=rtl-main.css.map */

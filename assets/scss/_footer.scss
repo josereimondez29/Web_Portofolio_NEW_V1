@@ -1,0 +1,17 @@
+@import "variable/variables";
+@import "mixin";
+
+//Footer
+footer{
+    background-color: #171717;
+    color: #fff;
+    li a {
+        background: #202020;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 50%;
+        text-align: center;
+    }
+}

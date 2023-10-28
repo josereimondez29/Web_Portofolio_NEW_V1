@@ -1,0 +1,230 @@
+@import "colorfull-variable";
+
+//Component
+.base-color{
+    color: $orange !important;
+}
+.pill-button-01 {
+    background-color: $orange;
+    &:hover{
+        background-color: $orange-hover;
+    }
+}
+.pill-button-01 {
+    background-color: $orange;
+    &:hover{
+        background-color: $orange-hover;
+    }
+}
+.title-box h6{
+    color: $orange;
+}
+.title-box-03 h2{
+    color: $orange;
+}
+
+//Preloader
+.spinner {
+    border-top-color: $orange;
+}
+.loader .letter-animation::before {
+    color: $orange;
+}
+//Header
+.header{
+    nav a:hover {
+        color: $orange !important;
+    }
+    nav a.navbar-brand:hover {
+        color: $orange !important;
+    }
+    nav .nav-pills a.active {
+        color: $orange;
+    }
+} 
+//Hero-03
+.hero-03 {
+    .social-icon  li a:hover{
+        color: $orange;
+    }
+}
+
+//Counted01
+.counted-box-01{
+    .count-number {
+        color: $orange;
+    }
+}
+//Counted-02{
+.counted-box-02{
+    .count-number {
+        color: $orange;
+    }
+}
+//Skills-01
+.skills-01{
+    .skillbar-bar {
+        background: $orange;
+    }
+    .skill-bar-percent {
+        border-color: $orange;
+        color: $orange;
+    }
+    .skill-bar-percent .arrow {
+        border-color: $orange;
+    }
+}
+.resume-01{
+    .timeline-icon {
+        border: 1px solid $orange;
+        background-color: $orange;
+    }
+    .timeline-boxes::before {
+        background-color: $orange;
+    }
+    .timeline-contents::before {
+        background-color: $orange;
+    }
+} 
+//Services
+.services-01{
+    .services-icon{
+        color: $orange;
+    }
+}
+.services-02{
+    .services-box:hover {
+        background-color: $orange !important;
+    }
+    .services-icon {
+        color: $orange;
+    }
+}
+.services-03{
+    .services-icon{
+        color: $orange;
+    }
+}
+.services-04{
+    .services-box:hover{
+        background-color: $orange !important;
+    }
+    .services-icon {
+        color: $orange;
+    }
+}
+//Portfolio
+.portfolio-icon a{
+    background: $orange;
+}
+.portfolio-02.bg-portfolio {
+    background-color: transparentize($color: $orange, $amount: 0.3);
+}
+.portfolio-filter{
+    li a.active , li a:hover{
+        background-color: $orange;
+    }
+}
+//Testimonial
+.testimonial-01{
+    .owl-dot.active span{
+        background-color: $orange; 
+    }
+}
+.testimonial-02{
+    .testimonial-item::before {
+        color: $orange;
+    }
+    .owl-dot.active span{
+        background-color: $orange; 
+    }
+}
+//Blog
+.blog-01{
+    .blog-link a:hover{
+        color: $orange;
+    }
+}
+.blog-02{
+    .blog-link a:hover{
+        color: $orange;
+    }
+}
+.blog-04 .blog-link a:hover {
+    color: $orange-hover;
+}
+//Resume
+.resume-01{
+    .timeline-year {
+        background: $orange;
+    }
+    .svg-inline--fa {
+        color: $orange;
+    }
+}
+//contact-01
+.contact-01{
+    .item-icon {
+        color: $orange;
+    }
+}
+//Contact-02
+.contact-02{
+    .item-icon {
+        color: $orange;
+    }
+}
+//Footer
+footer{
+    li a {
+        color: $orange;
+    }
+    li a:hover{
+        color: $orange-hover;
+    }
+}
+//ReturnTop
+.return-to-top {
+    background-color: $orange;
+}
+//SideBar
+.sidebar-toggler {
+    background-color: $orange;
+}
+.sidebar-list .list-group-item:hover, .sidebar-list .list-group-item.active  {
+    color: $orange !important;
+}
+.sidebar-page .sidebar .social-icon a:hover{
+    color: $orange;
+}
+//Blog Single
+.entry-meta  ul li i {
+    color: $orange;
+} 
+.blog-single{
+    .comment-author p a {
+        color: $orange;
+    }
+    .aside-item ul li span {
+        background-color: $orange;
+    }
+    .aside-item ul li a:hover{
+        color: $orange;
+    }
+    .about-description-box p::before {
+        background-color: $orange;
+    }
+}
+//Pagination
+.page-item.active .page-link,.page-link:hover{
+    border-color: $orange !important;
+    background-color: $orange !important;
+}
+//Portfolio Single
+.single-portfolio{
+    .aside-item-portfolio ul li a{
+        color: $orange;
+    }
+}
+
+  

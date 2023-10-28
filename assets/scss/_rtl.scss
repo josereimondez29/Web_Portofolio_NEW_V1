@@ -1,0 +1,391 @@
+@import "variable/variables";
+
+html{
+    direction: rtl;
+}
+
+body{
+    text-align: right;
+    direction: rtl;
+}
+.text-left{
+    text-align: right !important;
+}
+ul{
+    padding-right: 0;
+}
+.mfp-counter {
+    direction: ltr;
+}
+//Color Option{
+.color-switcher {
+    .color-pallet {
+        right: inherit;
+        left: -192px;
+        border-radius: 0 8px 8px 0;
+    }
+    .color-pallet.show {
+        right: inherit;
+        left: 0;
+    }
+    .pallet-button{
+        right: inherit;
+        left: 100%;
+        border-radius: 0 8px 8px 0;
+    }
+}
+.return-to-top {
+    right: inherit;
+    left: 15px;
+}
+@media (max-width: 991px){
+   .return-to-top{
+       right: inherit;
+       left: 0;
+       border-radius: 0 $rounded-sm  $rounded-sm 0;
+   }
+}
+//Menu
+#toggle-menu .ml-auto{
+    margin-left: inherit !important;
+    margin-right: auto !important;
+}
+.ml-lg-auto{
+    margin-left: inherit !important;
+    margin-right: auto !important;
+}
+.mr-xl-5{
+    margin-right: initial !important;
+    margin-left: 3rem !important;
+}
+.mr-lg-3 {
+    margin-right: initial !important;
+    margin-left: 1rem !important;
+}
+ul.pl-0{
+    padding-left: inherit;
+    padding-right: 0 !important;
+}
+.list-inline-item:not(:last-child) {
+    margin-right: inherit;
+    margin-left: 0.5rem;
+}
+.pill-button-01.mr-3{
+    margin-right: inherit !important;
+    margin-left: 1rem;
+}
+.hero-01 {
+    background-image: url("http://placehold.it/1920x1280") !important;
+}
+//About
+.about-02{
+    .social-icon ul {
+        padding-right: 0;
+        margin-left: inherit;
+        margin-right: 100px;
+    }
+    .social-icon ul li {
+        margin-right: 0;
+    }
+    .social-icon::before {
+        left: inherit;
+        right: 0;
+    }
+} 
+//ُSkills
+.skills-01{
+    .skillbar-title {
+        left: inherit;
+        right: -17px;
+    }
+    .skillbar-title span {
+        margin-left: inherit;
+        margin-right: 18px;
+    }
+    .skillbar-bar {
+        float: right;
+    }
+    .skill-bar-percent:first-child {
+        right: calc(90% - 21px);
+    }
+    .skill-bar-percent .arrow {
+        display: inherit;
+    }
+    .skill-box:first-child .skill-bar-percent{
+        right: calc(90% - 21px);
+    }
+    .skill-box:nth-child(2) .skill-bar-percent{
+        right: calc(85% - 21px)
+    }
+    .skill-box:nth-child(3) .skill-bar-percent{
+        right: calc(75% - 21px);
+    }
+    .skill-box:nth-child(4) .skill-bar-percent{
+        right: calc(60% - 21px);
+    }
+}
+//Services
+.services-01 .services-box {
+    text-align: right;
+}
+.services-03{
+    .services-content {
+        padding-left: inherit;
+        padding-right:  48px;
+    }
+    .services-icon {
+        float: right;
+    }
+}
+//Resume
+.resume-01{
+    .timeline-boxe {
+        margin-left: inherit;
+        margin-right: 30px;
+    }
+    .timeline-boxes::before {
+        left: inherit;
+        right: 0;
+    }
+    .timeline-contents::before {
+        left: inherit;
+        right: -22px;
+    }
+    .timeline-icon {
+        left: inherit;
+        right: -37px;
+    }
+    .svg-inline--fa {
+        margin-right: inherit;
+        margin-left: 4px;
+    }
+} 
+//Testimonial
+.testimonial-01{
+    .testimonial-image {
+        float: right;
+    }
+    .owl-dots {
+        left: inherit;
+        right: 22%;
+    }
+} 
+//Blog
+.blog-box .list-inline{
+    padding-right: 0 !important;
+}
+.blog-04{
+    .col-md-12.col-lg-4:nth-child(3) .image-blog img {
+        border-top-right-radius: inherit;
+        border-top-left-radius: 8px;
+    }
+    .col-md-12.col-lg-4:first-child .image-blog img {
+        border-top-left-radius: inherit;
+        border-top-right-radius: 8px;
+    }
+    .col-md-12.col-lg-4:nth-child(3) .blog-box {
+        border-bottom-right-radius: inherit;
+        border-bottom-left-radius: 8px;
+    }
+    .col-md-12.col-lg-4:first-child .blog-box {
+        border-bottom-left-radius: inherit;
+        border-bottom-right-radius: 8px;
+    }
+}
+//Contact
+.contact-01{
+    .info-text {
+        margin-left: inherit;
+        margin-right:  3.75rem;
+    }
+    .item-icon {
+        float: right;
+    }
+} 
+//ُSide Pages
+.sidebar-page{
+    .sidebar{
+        left: inherit;
+        right: 0;
+    }
+    .page-content {
+        padding-left: inherit;
+        padding-right: 250px;
+    }
+    .sidebar .sidebar-list .list-group-item{
+        margin-left: auto;
+    }
+}
+//Blog Single RTL
+.blog-page-header .entry-meta ul li:not(:last-child) {
+    margin-right: inherit;
+    margin-left: 16px;
+}
+.pagination-box .page-item:last-child .page-link {
+    border-radius: $rounded-pill 0 0 $rounded-pill;
+}
+.pagination-box .page-item.disabled .page-link {
+    border-radius: 0 $rounded-pill $rounded-pill 0;
+}
+.blog-single{
+    .aside-title h6 {
+        margin-right: inherit;
+        margin-left: 15px;
+    }
+    .search-boxes button.btn {
+        right: inherit;
+        left: 6px;
+    }
+    .aside-item ul li {
+        padding: 0 0 12px 16px;
+    }
+    .aside-item ul li span{
+        margin-left: inherit;
+        margin-right: auto;
+    }
+    .post-image {
+        margin-right: inherit;
+        margin-left: 16px;
+    }
+    .quotation {
+        border-left: none !important;
+        border-right: 3px solid $color-border-two;
+    }
+    .about-description-box {
+        padding-left: inherit;
+        padding-right: 32px;
+    }
+    .about-description-box p::before {
+        left: inherit;
+        right: -30px;
+    }
+    .image-comment {
+        left: inherit;
+        right: -36px;
+    }
+    .comment-content {
+        padding-left: inherit;
+        padding-right: 32px;
+    }
+    .comment-reply-link {
+        right: inherit;
+        left: 32px;
+    }
+    .comments ul {
+        margin-left: inherit;
+        margin-right: 40px;
+    }
+}
+//Portfolio Single
+.single-portfolio{
+    .aside-item-portfolio ul li {
+        padding: 0 0 12px 16px;
+    }
+    .aside-title h6 {
+        margin-right: inherit;
+        margin-left: 15px;
+    }
+    .aside-item-portfolio ul li a {
+        margin-right: inherit;
+        margin-left: 8px;
+    }
+} 
+//Contact
+#message.toast {
+    left: inherit;
+    right: 200px;
+}
+//SideBar PAges
+.sidebar-toggler {
+    right: inherit;
+    left: 0;
+    border-radius: 0 $rounded-sm $rounded-sm 0;
+    &.move {
+        right: inherit;
+        left: -38px;
+        border-radius: $rounded-sm 0 0 $rounded-sm;
+    } 
+}
+  
+
+@media (max-width: 1199px){
+   //Media Of SideBarPage RTL(max-width: 1199)//
+    .sidebar-toggler{
+        display: block;
+    }
+    .sidebar-page .page-content {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .sidebar-page .sidebar .sidebar-list {
+        text-align: center;
+    }
+    .sidebar-page .sidebar .sidebar-list .list-group-item {
+        margin-left: inherit;
+    }
+    .sidebar-page .sidebar.hide {
+        left: inherit;
+        right: -100%;
+    }
+}
+ 
+@media (max-width: 991px){
+    
+    //Media Of Blog RTL(max-width: 991)//
+    .blog-04{
+        .col-md-12.col-lg-4:first-child .blog-box::after,
+        .col-md-12.col-lg-4:nth-child(3) .blog-box::after
+        {
+            left: inherit;
+            right: -10px;
+            transform: rotate(-25deg);
+        }
+        .col-md-12.col-lg-4:nth-child(2) .blog-box::after{
+            right: inherit;
+            transform: rotate(25deg);
+            left: -10px;
+        }
+    }
+    //Media Of Testimonial RTL(max-width: 991)//
+    .testimonial-01{
+        .testimonial-image {
+            width: 30%;
+            float: inherit;
+        }
+        .testimonial-content {
+            margin-left: inherit;
+            margin-right: 0;
+            float: inherit;
+            width: 100%;
+            margin-top: 16px;
+        }
+        .testimonial-comment {
+            font-size: 18px;
+        }
+        .owl-dots {
+            left: inherit;
+            right: 0;
+        }
+    } 
+}
+
+@media (max-width: 380px) {
+    //Media of Contact RTl(max-width: 380)//
+    #message.toast {
+      left: inherit;
+      right: 15px;
+    }
+    .about-02{
+        .social-icon ul{
+            margin-left: inherit;
+            margin-right: 0;
+        }
+        .social-icon a {
+            margin-right: inherit;
+            margin-left: 16px;
+        }
+    }
+    .blog-single .comments ul {
+        margin-right: 30px;
+    }
+  }

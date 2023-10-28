@@ -1,0 +1,230 @@
+@import "colorfull-variable";
+
+//Component
+.base-color{
+    color: $golden !important;
+}
+.pill-button-01 {
+    background-color: $golden;
+    &:hover{
+        background-color: $golden-hover;
+    }
+}
+.pill-button-01 {
+    background-color: $golden;
+    &:hover{
+        background-color: $golden-hover;
+    }
+}
+.title-box h6{
+    color: $golden;
+}
+.title-box-03 h2{
+    color: $golden;
+}
+
+//Preloader
+.spinner {
+    border-top-color: $golden;
+}
+.loader .letter-animation::before {
+    color: $golden;
+}
+//Header
+.header{
+    nav a:hover {
+        color: $golden !important;
+    }
+    nav a.navbar-brand:hover {
+        color: $golden !important;
+    }
+    nav .nav-pills a.active {
+        color: $golden;
+    }
+} 
+//Hero-03
+.hero-03 {
+    .social-icon  li a:hover{
+        color: $golden;
+    }
+}
+
+//Counted01
+.counted-box-01{
+    .count-number {
+        color: $golden;
+    }
+}
+//Counted-02{
+.counted-box-02{
+    .count-number {
+        color: $golden;
+    }
+}
+//Skills-01
+.skills-01{
+    .skillbar-bar {
+        background: $golden;
+    }
+    .skill-bar-percent {
+        border-color: $golden;
+        color: $golden;
+    }
+    .skill-bar-percent .arrow {
+        border-color: $golden;
+    }
+}
+.resume-01{
+    .timeline-icon {
+        border: 1px solid $golden;
+        background-color: $golden;
+    }
+    .timeline-boxes::before {
+        background-color: $golden;
+    }
+    .timeline-contents::before {
+        background-color: $golden;
+    }
+} 
+//Services
+.services-01{
+    .services-icon{
+        color: $golden;
+    }
+}
+.services-02{
+    .services-box:hover {
+        background-color: $golden !important;
+    }
+    .services-icon {
+        color: $golden;
+    }
+}
+.services-03{
+    .services-icon{
+        color: $golden;
+    }
+}
+.services-04{
+    .services-box:hover{
+        background-color: $golden !important;
+    }
+    .services-icon {
+        color: $golden;
+    }
+}
+//Portfolio
+.portfolio-icon a{
+    background: $golden;
+}
+.portfolio-02.bg-portfolio {
+    background-color: transparentize($color: $golden, $amount: 0.3);
+}
+.portfolio-filter{
+    li a.active , li a:hover{
+        background-color: $golden;
+    }
+}
+//Testimonial
+.testimonial-01{
+    .owl-dot.active span{
+        background-color: $golden; 
+    }
+}
+.testimonial-02{
+    .testimonial-item::before {
+        color: $golden;
+    }
+    .owl-dot.active span{
+        background-color: $golden; 
+    }
+}
+//Blog
+.blog-01{
+    .blog-link a:hover{
+        color: $golden;
+    }
+}
+.blog-02{
+    .blog-link a:hover{
+        color: $golden;
+    }
+}
+.blog-04 .blog-link a:hover {
+    color: $golden-hover;
+}
+//Resume
+.resume-01{
+    .timeline-year {
+        background: $golden;
+    }
+    .svg-inline--fa {
+        color: $golden;
+    }
+}
+//contact-01
+.contact-01{
+    .item-icon {
+        color: $golden;
+    }
+}
+//Contact-02
+.contact-02{
+    .item-icon {
+        color: $golden;
+    }
+}
+//Footer
+footer{
+    li a {
+        color: $golden;
+    }
+    li a:hover{
+        color: $golden-hover;
+    }
+}
+//ReturnTop
+.return-to-top {
+    background-color: $golden;
+}
+//SideBar
+.sidebar-toggler {
+    background-color: $golden;
+}
+.sidebar-list .list-group-item:hover, .sidebar-list .list-group-item.active  {
+    color: $golden !important;
+}
+.sidebar-page .sidebar .social-icon a:hover{
+    color: $golden;
+}
+//Blog Single
+.entry-meta  ul li i {
+    color: $golden;
+} 
+.blog-single{
+    .comment-author p a {
+        color: $golden;
+    }
+    .aside-item ul li span {
+        background-color: $golden;
+    }
+    .aside-item ul li a:hover{
+        color: $golden;
+    }
+    .about-description-box p::before {
+        background-color: $golden;
+    }
+}
+//Pagination
+.page-item.active .page-link,.page-link:hover{
+    border-color: $golden !important;
+    background-color: $golden !important;
+}
+//Portfolio Single
+.single-portfolio{
+    .aside-item-portfolio ul li a{
+        color: $golden;
+    }
+}
+
+  

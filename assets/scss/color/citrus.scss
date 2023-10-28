@@ -1,0 +1,230 @@
+@import "colorfull-variable";
+
+//Component
+.base-color{
+    color: $citrus !important;
+}
+.pill-button-01 {
+    background-color: $citrus;
+    &:hover{
+        background-color: $citrus-hover;
+    }
+}
+.pill-button-01 {
+    background-color: $citrus;
+    &:hover{
+        background-color: $citrus-hover;
+    }
+}
+.title-box h6{
+    color: $citrus;
+}
+.title-box-03 h2{
+    color: $citrus;
+}
+
+//Preloader
+.spinner {
+    border-top-color: $citrus;
+}
+.loader .letter-animation::before {
+    color: $citrus;
+}
+//Header
+.header{
+    nav a:hover {
+        color: $citrus !important;
+    }
+    nav a.navbar-brand:hover {
+        color: $citrus !important;
+    }
+    nav .nav-pills a.active {
+        color: $citrus;
+    }
+} 
+//Hero-03
+.hero-03 {
+    .social-icon  li a:hover{
+        color: $citrus;
+    }
+}
+
+//Counted01
+.counted-box-01{
+    .count-number {
+        color: $citrus;
+    }
+}
+//Counted-02{
+.counted-box-02{
+    .count-number {
+        color: $citrus;
+    }
+}
+//Skills-01
+.skills-01{
+    .skillbar-bar {
+        background: $citrus;
+    }
+    .skill-bar-percent {
+        border-color: $citrus;
+        color: $citrus;
+    }
+    .skill-bar-percent .arrow {
+        border-color: $citrus;
+    }
+}
+.resume-01{
+    .timeline-icon {
+        border: 1px solid $citrus;
+        background-color: $citrus;
+    }
+    .timeline-boxes::before {
+        background-color: $citrus;
+    }
+    .timeline-contents::before {
+        background-color: $citrus;
+    }
+} 
+//Services
+.services-01{
+    .services-icon{
+        color: $citrus;
+    }
+}
+.services-02{
+    .services-box:hover {
+        background-color: $citrus !important;
+    }
+    .services-icon {
+        color: $citrus;
+    }
+}
+.services-03{
+    .services-icon{
+        color: $citrus;
+    }
+}
+.services-04{
+    .services-box:hover{
+        background-color: $citrus !important;
+    }
+    .services-icon {
+        color: $citrus;
+    }
+}
+//Portfolio
+.portfolio-icon a{
+    background: $citrus;
+}
+.portfolio-02.bg-portfolio {
+    background-color: transparentize($color: $citrus, $amount: 0.3);
+}
+.portfolio-filter{
+    li a.active , li a:hover{
+        background-color: $citrus;
+    }
+}
+//Testimonial
+.testimonial-01{
+    .owl-dot.active span{
+        background-color: $citrus; 
+    }
+}
+.testimonial-02{
+    .testimonial-item::before {
+        color: $citrus;
+    }
+    .owl-dot.active span{
+        background-color: $citrus; 
+    }
+}
+//Blog
+.blog-01{
+    .blog-link a:hover{
+        color: $citrus;
+    }
+}
+.blog-02{
+    .blog-link a:hover{
+        color: $citrus;
+    }
+}
+.blog-04 .blog-link a:hover {
+    color: $citrus-hover;
+}
+//Resume
+.resume-01{
+    .timeline-year {
+        background: $citrus;
+    }
+    .svg-inline--fa {
+        color: $citrus;
+    }
+}
+//contact-01
+.contact-01{
+    .item-icon {
+        color: $citrus;
+    }
+}
+//Contact-02
+.contact-02{
+    .item-icon {
+        color: $citrus;
+    }
+}
+//Footer
+footer{
+    li a {
+        color: $citrus;
+    }
+    li a:hover{
+        color: $citrus-hover;
+    }
+}
+//ReturnTop
+.return-to-top {
+    background-color: $citrus;
+}
+//SideBar
+.sidebar-toggler {
+    background-color: $citrus;
+}
+.sidebar-list .list-group-item:hover, .sidebar-list .list-group-item.active  {
+    color: $citrus !important;
+}
+.sidebar-page .sidebar .social-icon a:hover{
+    color: $citrus;
+}
+//Blog Single
+.entry-meta  ul li i {
+    color: $citrus;
+} 
+.blog-single{
+    .comment-author p a {
+        color: $citrus;
+    }
+    .aside-item ul li span {
+        background-color: $citrus;
+    }
+    .aside-item ul li a:hover{
+        color: $citrus;
+    }
+    .about-description-box p::before {
+        background-color: $citrus;
+    }
+}
+//Pagination
+.page-item.active .page-link,.page-link:hover{
+    border-color: $citrus !important;
+    background-color: $citrus !important;
+}
+//Portfolio Single
+.single-portfolio{
+    .aside-item-portfolio ul li a{
+        color: $citrus;
+    }
+}
+
+  

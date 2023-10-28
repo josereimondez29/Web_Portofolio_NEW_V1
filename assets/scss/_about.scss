@@ -1,0 +1,201 @@
+@import "variable/variables";
+@import "mixin";
+
+
+//Counted01
+.counted-box-01{
+    .count-number {
+        font-size: 38px;
+        font-weight: $font-weight-semibold;
+    }
+    .count-content p {
+        font-weight: $font-weight-bold;
+        font-size: 18px;
+    }
+}
+//Counted-02{
+.counted-box-02{
+    .count-content {
+        padding: 24px;
+        background-color: #eaeaea;
+        margin-bottom: 30px;
+        border-radius: 8px;
+        p {
+            font-weight: $font-weight-bold;
+            font-size: 18px;
+        }
+    }
+    .count-number {
+        font-size: 42px;
+        font-weight: $font-weight-semibold;
+    }
+}
+//skills-01
+.skills-01{
+    .title-box h3{
+        font-size: 36px;
+        text-transform: inherit;
+        letter-spacing: 0;
+    }
+    .title-box h6{
+        letter-spacing: 4px;
+    }
+    #skills {
+        padding-top: 40px;
+    }
+    .skillbar {
+        position: $position-relative;
+        display: $d-block;
+        width: $w-100;
+        height: 3px;
+        transition: 0.1s linear;
+        background: #eee;
+    }
+    .skill-box:not(:last-child) .skillbar {
+        margin-bottom: 77px;
+    }
+    .skillbar-title {
+        position: $position-absolute;
+        top: -28px;
+        left: -17px;
+        font-weight: $font-weight-semibold;
+        font-size: 14px;
+    }
+    .skillbar-title span {
+        margin-left: 18px;
+    }
+      
+    .skillbar-bar {
+        height: 3px;
+        width: 0;
+        float: left;
+    }
+      
+    .skill-bar-percent {
+        height: 32px;
+        margin-top: -41px;
+        position: $position-absolute;
+        right: calc(100% - 40px);
+        width: 46px;
+        z-index: 10;
+        border-radius: 4px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 31px;
+        top: 50%;
+        text-align: $text-center;
+        border: 1px solid;
+    }
+    .skill-box:first-child .skill-bar-percent{
+        right: calc(10% - 21px);
+    }
+    .skill-box:nth-child(2) .skill-bar-percent{
+        right: calc(15% - 21px)
+    }
+    .skill-box:nth-child(3) .skill-bar-percent{
+        right: calc(25% - 21px);
+    }
+    .skill-box:nth-child(4) .skill-bar-percent{
+        right: calc(40% - 21px);
+    }
+    .skill-bar-percent .arrow {
+        display: inline-block;
+        padding: 4px;
+        transform: translateY(33.5px) rotate(45deg) skew(3deg, 3deg) translateX(-27px);
+        bottom: 8px;
+        position: absolute;
+        border: 1px solid;
+        border-width: 0 1px 1px 0;
+        background-color: $white;
+    }
+}
+//About 01
+.about-01{
+    .title-box h3{
+        font-size: 36px;
+        text-transform: inherit;
+        letter-spacing: 0;
+    }
+    .title-box h6{
+        letter-spacing: 4px;
+    }
+    .about-image img{
+        @include image-box;
+        padding: 4px;
+        border: 1px solid #ccc;
+    }
+}
+//About 02
+.about-02{
+    .title-box h3{
+        font-size: 36px;
+        text-transform: inherit;
+        letter-spacing: 0;
+    }
+    .title-box h6{
+        letter-spacing: 4px;
+    }
+    .about-image img{
+        @include image-box;
+        padding: 4px;
+        border: 1px solid #ccc;
+    }
+    .about-text{
+        margin-bottom: 24px;
+        padding-bottom: 32px;
+        border-bottom: 1px solid $color-border-one;
+    }
+    .social-icon{
+        position: relative;
+        display: inline-block;
+        &::before{
+            background-color: #2f2f2f;
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 80px;
+            height: 1px;
+        }
+        ul{
+            margin-left: 100px;
+        }
+        a{
+            color: #2f2f2f;
+        }
+    }
+}
+//About-03
+.about-03{
+    .skills-01 .skill-box:not(:last-child) .skillbar {
+        margin-bottom: 67px;
+    }
+}
+//About-04
+.about-04{
+    .personal-item h2{
+        font-family: "Roboto Condensed", sans-serif;
+        font-weight: 600;
+    }
+    .social-icon{
+        li a {
+            background: #eaeaea;
+            color: #010101;
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 50%;
+            text-align: center;
+        }
+    }
+    .personal-info ul li{
+        margin-bottom: 16px;
+        small{
+            font-weight: 300;
+        }
+    }
+}
+
+
+

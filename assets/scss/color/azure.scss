@@ -1,0 +1,228 @@
+@import "colorfull-variable";
+
+//Component
+.base-color{
+    color: $azure !important;
+}
+.pill-button-01 {
+    background-color: $azure;
+    &:hover{
+        background-color: $azure-hover;
+    }
+}
+.pill-button-01 {
+    background-color: $azure;
+    &:hover{
+        background-color: $azure-hover;
+    }
+}
+.title-box h6{
+    color: $azure;
+}
+.title-box-03 h2{
+    color: $azure;
+}
+
+//Preloader
+.spinner {
+    border-top-color: $azure;
+}
+.loader .letter-animation::before {
+    color: $azure;
+}
+//Header
+.header{
+    nav a:hover {
+        color: $azure !important;
+    }
+    nav a.navbar-brand:hover {
+        color: $azure !important;
+    }
+    nav .nav-pills a.active {
+        color: $azure;
+    }
+} 
+//Hero-03
+.hero-03 {
+    .social-icon  li a:hover{
+        color: $azure;
+    }
+}
+
+//Counted01
+.counted-box-01{
+    .count-number {
+        color: $azure;
+    }
+}
+//Counted-02{
+.counted-box-02{
+    .count-number {
+        color: $azure;
+    }
+}
+//Skills-01
+.skills-01{
+    .skillbar-bar {
+        background: $azure;
+    }
+    .skill-bar-percent {
+        border-color: $azure;
+        color: $azure;
+    }
+    .skill-bar-percent .arrow {
+        border-color: $azure;
+    }
+}
+.resume-01{
+    .timeline-icon {
+        border: 1px solid $azure;
+        background-color: $azure;
+    }
+    .timeline-boxes::before {
+        background-color: $azure;
+    }
+    .timeline-contents::before {
+        background-color: $azure;
+    }
+} 
+//Services
+.services-01{
+    .services-icon{
+        color: $azure;
+    }
+}
+.services-02{
+    .services-box:hover {
+        background-color: $azure !important;
+    }
+    .services-icon {
+        color: $azure;
+    }
+}
+.services-03{
+    .services-icon{
+        color: $azure;
+    }
+}
+.services-04{
+    .services-box:hover{
+        background-color: $azure !important;
+    }
+    .services-icon {
+        color: $azure;
+    }
+}
+//Portfolio
+.portfolio-icon a{
+    background: $azure;
+}
+.portfolio-02.bg-portfolio {
+    background-color: transparentize($color: $azure, $amount: 0.5);
+}
+.portfolio-filter{
+    li a.active , li a:hover{
+        background-color: $azure;
+    }
+}
+//Testimonial
+.testimonial-01{
+    .owl-dot.active span{
+        background-color: $azure; 
+    }
+}
+.testimonial-02{
+    .testimonial-item::before {
+        color: $azure;
+    }
+    .owl-dot.active span{
+        background-color: $azure; 
+    }
+}
+//Blog
+.blog-01{
+    .blog-link a:hover{
+        color: $azure;
+    }
+}
+.blog-02{
+    .blog-link a:hover{
+        color: $azure;
+    }
+}
+.blog-04 .blog-link a:hover {
+    color: $azure-hover;
+}
+//Resume
+.resume-01{
+    .timeline-year {
+        background: $azure;
+    }
+    .svg-inline--fa {
+        color: $azure;
+    }
+}
+//contact-01
+.contact-01{
+    .item-icon {
+        color: $azure;
+    }
+}
+//Contact-02
+.contact-02{
+    .item-icon {
+        color: $azure;
+    }
+}
+//Footer
+footer{
+    li a {
+        color: $azure;
+    }
+    li a:hover{
+        color: $azure-hover;
+    }
+}
+//ReturnTop
+.return-to-top {
+    background-color: $azure;
+}
+//SideBar Header
+.sidebar-toggler {
+    background-color: $azure;
+}
+.sidebar-list .list-group-item:hover, .sidebar-list .list-group-item.active  {
+    color: $azure !important;
+}
+.sidebar-page .sidebar .social-icon a:hover{
+    color: $azure;
+}
+//Blog Single
+.entry-meta  ul li i {
+    color: $azure;
+} 
+.blog-single{
+    .comment-author p a {
+        color: $azure;
+    }
+    .aside-item ul li span {
+        background-color: $azure;
+    }
+    .aside-item ul li a:hover{
+        color: $azure;
+    }
+    .about-description-box p::before {
+        background-color: $azure;
+    }
+}
+//Pagination
+.page-item.active .page-link,.page-link:hover{
+    border-color: $azure !important;
+    background-color: $azure !important;
+}
+//Portfolio Single
+.single-portfolio{
+    .aside-item-portfolio ul li a{
+        color: $azure;
+    }
+}

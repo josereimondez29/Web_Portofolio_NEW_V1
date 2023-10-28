@@ -1,0 +1,128 @@
+/*-----------------------------------------------------------
+* Template Name    : WESTIN - Fully Responsive Personal Template
+* Author           : Retrina Group
+* Version          : 2.0.0
+* Created          : January 2021
+* File Description : Main css file of the template
+*------------------------------------------------------------*/
+/*---------------------------
+    1.fixed
+        1.1 Preloade
+        1.2 ColorPallet
+        1.3 return Up
+
+    2.Component
+        2.1 General
+
+    3.Header
+        3.1 Header
+
+    4.Hero
+        4.1 Hero-01
+        4.2. Hero-02
+        4.3. Hero-03
+
+    5.About
+        5.1 Counted01
+        5.2 Counted02
+        5.3 skills-01
+        5.4 About 01
+        5.5 About 02 
+        5.6 About 03
+        5.7 About 04
+
+    6.Services
+        6.1 services-01
+        6.2 services-02
+        6.3 services-03
+        6.4 Services-04
+        6.Resume
+
+    7.Portfolio
+        7.1 Portfolio-01
+        7.2  Portfolio-02
+        7.3  Portfolio-03
+        7.4 Portfolio-04
+        7.5 Portolio Single
+
+    8.Testimonial
+        8.1 Testimonial-01
+        8.2  Testimonial-02
+
+    9.Contact
+        9.1 Contact-01
+        9.2 Contact-02
+        
+    10.Counted
+        10.1 counted 01
+        10.2 counted 02
+        10.3 counted 03
+        10.4 Counted Wrapper
+        10.5 Dark / Counted
+        10.6 Media / Counted
+
+    11.Portfolio
+        11.1 Portfolio 01
+        11.2 Portfolio 02
+        11.3 Portfolio 03
+        11.4 Portfolio Page
+        11.5 Single Portfolio
+        11.6 Dark / Portfolio
+
+    12.Team
+        12.1 Team 01
+        12.2 Team 02
+        12.3 Team 03
+        12.4 Dark / Team
+        12.5 Media / Team
+
+    13.Testimonial
+        13.1 Testimonial 01
+        13.2 Testimonial 02
+        13.3 Testimonial 03
+        13.4 Dark / Testimonial
+        13.5 Media / Testimonial
+
+    14.Blog
+        14.1 Blog-01
+        14.2 Blog-02
+        14.3 Blog Pages
+
+    15.contact
+        15.1 contact-01
+        15.2 contact 02
+
+    16.Footer
+        16.1 Footer
+
+    17.SideBar
+        17.1 SideBarPages
+
+    18.Dark Pages
+        18.1 Dark
+
+    19.BorderStyle
+        19.1BorderStyle
+
+    20.Media
+        
+-----------------------------*/
+
+@import "variable/variables";
+@import "mixin";
+@import "fixed";
+@import "components";
+@import "header";
+@import "hero";
+@import "about";
+@import "services";
+@import "resume";
+@import "portfolio";
+@import "testimonial";
+@import "blog";
+@import "contact";
+@import "footer";
+@import "sidbar";
+@import "dark";
+@import "borderstyle";
+@import "media";

@@ -1,0 +1,59 @@
+// Font Family
+$Poppins: 'Poppins', sans-serif;
+$MUli: 'Muli', sans-serif;
+$Barlow: 'Roboto Condensed', sans-serif;
+$FontAwesome: 'FontAwesome','sans-serif';
+$lineIcon: LineIcons, sans-serif; 
+
+// Font weight
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 500;
+$font-weight-semibold: 600;
+$font-weight-extra-bold: 700;
+
+// Font Size
+$base-font-size: 16px;
+
+// Border radius
+$runded-0: 0;
+$rounded-sm:8px;
+$rounded: 16px;
+$rounded-pill: 30px;
+$rounded-circle: 50%;
+
+// Transition
+$transition: all 0.5s ease;
+$second-transition: .8s ease-in-out;
+
+//Box Shadow
+$box-shadow: 3px 3px 3px #dadada, -3px -3px 3px #fafafa;
+$box-shadow-inset: inset 3px 3px 3px #dadada, inset -3px -3px 3px #fafafa;
+$flat-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
+$flat-box-shadow-two: 0 1px 4px 0 rgba(15, 15, 20, 0.1);
+
+
+//Color
+$base-bg-light: #f1f3f6;
+$base-bg-dark: #171717;
+$color-body-dark:#0f0f0f;
+$text-light: #f8f9fa;
+$text-body: #212529;
+$azure:#03dedf;
+
+// Others
+$golden-line-height: 1.618;
+$w-100: 100% ;
+$h-100: 100%;
+$d-block: block;
+$d-table: table;
+$d-none: none;
+$d-flex: flex;
+$d-table-cell:table-cell;
+$align-middle:middle;
+$position-absolute: absolute;
+$position-relative: relative;
+$position-fixed: fixed;
+
+$float-left: left;
+$text-center: center;

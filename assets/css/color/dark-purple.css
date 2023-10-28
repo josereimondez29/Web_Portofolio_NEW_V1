@@ -1,0 +1,215 @@
+.base-color {
+  color: #9200ee !important;
+}
+
+.pill-button-01 {
+  background-color: #9200ee;
+}
+
+.pill-button-01:hover {
+  background-color: #7c06c5;
+}
+
+.pill-button-01 {
+  background-color: #9200ee !important;
+}
+
+.pill-button-01:hover {
+  background-color: #7c06c5 !important;
+}
+
+.title-box h6 {
+  color: #9200ee;
+}
+
+.title-box-03 h2 {
+  color: #9200ee;
+}
+
+.spinner {
+  border-top-color: #9200ee;
+}
+
+.loader .letter-animation::before {
+  color: #9200ee;
+}
+
+.header nav a:hover {
+  color: #9200ee !important;
+}
+
+.header nav a.navbar-brand:hover {
+  color: #9200ee !important;
+}
+
+.header nav .nav-pills a.active {
+  color: #9200ee;
+}
+
+.hero-03 .social-icon li a:hover {
+  color: #9200ee;
+}
+
+.counted-box-01 .count-number {
+  color: #9200ee;
+}
+
+.counted-box-02 .count-number {
+  color: #9200ee;
+}
+
+.skills-01 .skillbar-bar {
+  background: #9200ee;
+}
+
+.skills-01 .skill-bar-percent {
+  border-color: #9200ee;
+  color: #9200ee;
+}
+
+.skills-01 .skill-bar-percent .arrow {
+  border-color: #9200ee;
+}
+
+.resume-01 .timeline-icon {
+  border: 1px solid #9200ee;
+  background-color: #9200ee;
+}
+
+.resume-01 .timeline-boxes::before {
+  background-color: #9200ee;
+}
+
+.resume-01 .timeline-contents::before {
+  background-color: #9200ee;
+}
+
+.services-01 .services-icon {
+  color: #9200ee;
+}
+
+.services-02 .services-box:hover {
+  background-color: #9200ee !important;
+}
+
+.services-02 .services-icon {
+  color: #9200ee;
+}
+
+.services-03 .services-icon {
+  color: #9200ee;
+}
+
+.services-04 .services-box:hover {
+  background-color: #9200ee !important;
+}
+
+.services-04 .services-icon {
+  color: #9200ee;
+}
+
+.portfolio-icon a {
+  background: #9200ee;
+}
+
+.portfolio-02.bg-portfolio {
+  background-color: rgba(146, 0, 238, 0.7);
+}
+
+.portfolio-filter li a.active, .portfolio-filter li a:hover {
+  background-color: #9200ee;
+}
+
+.testimonial-01 .owl-dot.active span {
+  background-color: #9200ee;
+}
+
+.testimonial-02 .testimonial-item::before {
+  color: #9200ee;
+}
+
+.testimonial-02 .owl-dot.active span {
+  background-color: #9200ee;
+}
+
+.blog-01 .blog-link a:hover {
+  color: #9200ee;
+}
+
+.blog-02 .blog-link a:hover {
+  color: #9200ee;
+}
+
+.blog-04 .blog-link a:hover {
+  color: #7c06c5;
+}
+
+.resume-01 .timeline-year {
+  background: #9200ee;
+}
+
+.resume-01 .svg-inline--fa {
+  color: #9200ee;
+}
+
+.contact-01 .item-icon {
+  color: #9200ee;
+}
+
+.contact-02 .item-icon {
+  color: #9200ee;
+}
+
+footer li a {
+  color: #9200ee;
+}
+
+footer li a:hover {
+  color: #7c06c5;
+}
+
+.return-to-top {
+  background-color: #9200ee;
+}
+
+.sidebar-toggler {
+  background-color: #9200ee;
+}
+
+.sidebar-list .list-group-item:hover, .sidebar-list .list-group-item.active {
+  color: #9200ee !important;
+}
+
+.sidebar-page .sidebar .social-icon a:hover {
+  color: #9200ee;
+}
+
+.entry-meta ul li i {
+  color: #9200ee;
+}
+
+.blog-single .comment-author p a {
+  color: #9200ee;
+}
+
+.blog-single .aside-item ul li span {
+  background-color: #9200ee;
+}
+
+.blog-single .aside-item ul li a:hover {
+  color: #9200ee;
+}
+
+.blog-single .about-description-box p::before {
+  background-color: #9200ee;
+}
+
+.page-item.active .page-link, .page-link:hover {
+  border-color: #9200ee !important;
+  background-color: #9200ee !important;
+}
+
+.single-portfolio .aside-item-portfolio ul li a {
+  color: #9200ee;
+}
+/*# sourceMappingURL=dark-purple.css.map */

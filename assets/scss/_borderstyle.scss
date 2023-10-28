@@ -1,0 +1,98 @@
+
+@import "variable/variables";
+@import "mixin";
+
+
+
+.border-style-demo{
+    .about-04 .social-icon li a{
+        background-color: transparent;
+        border: 1px solid $color-border-one;
+    }
+    .services-01 .services-box {
+        background-color: transparent;
+        border: 1px solid $color-border-one;
+    }
+    .services-02 .services-box {
+        background-color: transparent;
+        border: 1px solid $color-border-one;
+    }
+    .services-04 .services-box{
+        background-color: transparent;
+        border: 1px solid $color-border-one;
+    }
+    .counted-box-02 .count-content{
+        background-color: transparent;
+        border: 1px solid $color-border-one;
+    }
+    .resume-01 .timeline-contents{
+        background-color: transparent;
+        border: 1px solid $color-border-one;
+    }
+    .services-03 .services-box{
+        background-color: transparent;
+        border: 1px solid $color-border-one;
+    }
+    .testimonial-01 .testimonial-image img {
+        padding: 4px;
+        border: 1px solid $color-border-one;
+    }
+    .blog-01 .blog-item{
+        background-color: transparent;
+        border: 1px solid $color-border-one;
+    }
+    .blog-02 .blog-item{
+        background-color: transparent;
+        border: 1px solid $color-border-one;
+    }
+    .contact-01 .form-control{
+        background-color: transparent;
+        border: 1px solid $color-border-one;
+    }
+    .contact-02 .form-control{
+        background-color: transparent;
+        border: 1px solid $color-border-one;
+    }
+}
+
+///////////Dark BorderStyle Demo
+.westin-dark.border-style-demo{
+    .about-04 .social-icon li a{
+        border: 1px solid $color-border-two;
+    }
+    .services-01 .services-box {
+        background-color: transparent;
+        border: 1px solid $color-border-two;
+    }
+    .services-02 .services-box {
+        background-color: transparent;
+        border: 1px solid $color-border-two;
+    }
+    .services-04 .services-box{
+        border: 1px solid $color-border-two;
+    }
+    .counted-box-02 .count-content{
+        border: 1px solid $color-border-two;
+    }
+    .resume-01 .timeline-contents{
+        border: 1px solid $color-border-two;
+    }
+    .services-03 .services-box{
+        border: 1px solid $color-border-two;
+    }
+    .testimonial-01 .testimonial-image img {
+        border: 1px solid $color-border-two;
+    }
+    .blog-01 .blog-item{
+        border: 1px solid $color-border-two;
+    }
+    .blog-02 .blog-item{
+        border: 1px solid $color-border-two;
+    }
+    .contact-01 .form-control{
+        border: 1px solid $color-border-two;
+    }
+    .contact-02 .form-control{
+        border: 1px solid $color-border-two;
+    }
+}

@@ -1,0 +1,458 @@
+@import "colorfull-variable";
+
+//Component
+.base-color{
+    color: $dark-mono !important;
+}
+.pill-button-01 {
+    background-color: $dark-mono;
+    &:hover{
+        background-color: $dark-mono-hover;
+    }
+}
+.pill-button-01 {
+    background-color: $dark-mono;
+    &:hover{
+        background-color: $dark-mono-hover;
+    }
+}
+.title-box h6{
+    color: $dark-mono;
+}
+.title-box-03 h2{
+    color: $dark-mono;
+}
+
+//Preloader
+.spinner {
+    border-top-color: $dark-mono;
+}
+.loader .letter-animation::before {
+    color: $dark-mono;
+}
+//Header
+.header{
+    nav a:hover {
+        color: $dark-mono !important;
+    }
+    nav a.navbar-brand:hover {
+        color: $dark-mono !important;
+    }
+    nav .nav-pills a.active {
+        color: $dark-mono;
+    }
+} 
+//Hero-03
+.hero-03 {
+    .social-icon  li a:hover{
+        color: $dark-mono;
+    }
+}
+
+//Counted01
+.counted-box-01{
+    .count-number {
+        color: $dark-mono;
+    }
+}
+//Counted-02{
+.counted-box-02{
+    .count-number {
+        color: $dark-mono;
+    }
+}
+//Skills-01
+.skills-01{
+    .skillbar-bar {
+        background: $dark-mono;
+    }
+    .skill-bar-percent {
+        border-color: $dark-mono;
+        color: $dark-mono;
+    }
+    .skill-bar-percent .arrow {
+        border-color: $dark-mono;
+    }
+}
+.resume-01{
+    .timeline-icon {
+        border: 1px solid $dark-mono;
+        background-color: $dark-mono;
+    }
+    .timeline-boxes::before {
+        background-color: $dark-mono;
+    }
+    .timeline-contents::before {
+        background-color: $dark-mono;
+    }
+} 
+//Services
+.services-01{
+    .services-icon{
+        color: $dark-mono;
+    }
+}
+.services-02{
+    .services-box:hover {
+        background-color: $dark-mono !important;
+    }
+    .services-icon {
+        color: $dark-mono;
+    }
+}
+.services-03{
+    .services-icon{
+        color: $dark-mono;
+    }
+}
+.services-04{
+    .services-box:hover{
+        background-color: $dark-mono !important;
+    }
+    .services-icon {
+        color: $dark-mono;
+    }
+}
+//Portfolio
+.portfolio-icon a{
+    background: $dark-mono;
+}
+.portfolio-02.bg-portfolio {
+    background-color: transparentize($color: $dark-mono, $amount: 0.5);
+}
+.portfolio-filter{
+    li a.active , li a:hover{
+        background-color: $dark-mono;
+    }
+}
+//Testimonial
+.testimonial-01{
+    .owl-dot.active span{
+        background-color: $dark-mono; 
+    }
+}
+.testimonial-02{
+    .testimonial-item::before {
+        color: $dark-mono;
+    }
+    .owl-dot.active span{
+        background-color: $dark-mono; 
+    }
+}
+//Blog
+.blog-01{
+    .blog-link a:hover{
+        color: $dark-mono;
+    }
+}
+.blog-02{
+    .blog-link a:hover{
+        color: $dark-mono;
+    }
+}
+.blog-04 .blog-link a:hover {
+    color: $dark-mono-hover;
+}
+//Resume
+.resume-01{
+    .timeline-year {
+        background: $dark-mono;
+    }
+    .svg-inline--fa {
+        color: $dark-mono;
+    }
+}
+//contact-01
+.contact-01{
+    .item-icon {
+        color: $dark-mono;
+    }
+}
+//Contact-02
+.contact-02{
+    .item-icon {
+        color: $dark-mono;
+    }
+}
+//Footer
+footer{
+    li a {
+        color: $dark-mono;
+    }
+    li a:hover{
+        color: $dark-mono-hover;
+    }
+}
+//ReturnTop
+.return-to-top {
+    background-color: $dark-mono;
+}
+//SideBar
+.sidebar-toggler {
+    background-color: #fff;
+}
+.sidebar-list .list-group-item:hover, .sidebar-list .list-group-item.active  {
+    color: $dark-mono !important;
+}
+.sidebar-page .sidebar .social-icon a:hover{
+    color: $dark-mono;
+}
+//Blog Single
+.entry-meta  ul li i {
+    color: $dark-mono;
+} 
+.blog-single{
+    .comment-author p a {
+        color: $dark-mono;
+    }
+    .aside-item ul li span {
+        background-color: $dark-mono;
+    }
+    .aside-item ul li a:hover{
+        color: $dark-mono;
+    }
+    .about-description-box p::before {
+        background-color: $dark-mono;
+    }
+    //Pagination
+    .page-item.active .page-link,.page-link:hover{
+        border-color: $dark-mono !important;
+        background-color: $dark-mono !important;
+    }
+    //Portfolio Single
+    .single-portfolio{
+        .aside-item-portfolio ul li a{
+            color: $dark-mono;
+        }
+    }
+
+}
+  
+//////Dark Mono///////
+.westin-dark{
+
+    //Component
+    .base-color{
+        color: $light-mono !important;
+    }
+    .pill-button-01 {
+        background-color: $light-mono;
+        color: #010101 !important;
+        &:hover{
+            background-color: $light-mono-hover;
+        }
+    }
+    .pill-button-01 {
+        background-color: $light-mono;
+        color: #010101 !important;
+        &:hover{
+            background-color: $light-mono-hover;
+        }
+    }
+    .title-box h6{
+        color: $light-mono;
+    }
+    .title-box-03 h2{
+        color: $light-mono;
+    }
+    
+    //Header
+    .header{
+        nav a:hover {
+            color: $light-mono !important;
+        }
+        nav a.navbar-brand:hover {
+            color: $light-mono !important;
+        }
+        nav .nav-pills a.active {
+            color: $light-mono;
+        }
+    } 
+    //Hero-03
+    .hero-03 {
+        .social-icon  li a:hover{
+            color: $light-mono;
+        }
+    }
+
+    //Counted01
+    .counted-box-01{
+        .count-number {
+            color: $light-mono;
+        }
+    }
+    //Counted-02{
+    .counted-box-02{
+        .count-number {
+            color: $light-mono;
+        }
+    }
+    //Skills-01
+    .skills-01{
+        .skillbar-bar {
+            background: $light-mono;
+        }
+        .skill-bar-percent {
+            border-color: $light-mono;
+            color: $light-mono;
+        }
+        .skill-bar-percent .arrow {
+            border-color: $light-mono;
+        }
+    }
+    .resume-01{
+        .timeline-icon {
+            border: 1px solid $light-mono;
+            background-color: $light-mono;
+        }
+        .timeline-boxes::before {
+            background-color: $light-mono;
+        }
+        .timeline-contents::before {
+            background-color: $light-mono;
+        }
+    } 
+    //Services
+    .services-01{
+        .services-icon{
+            color: $light-mono;
+        }
+    }
+    .services-02{
+        .services-box:hover {
+            background-color: $light-mono !important;
+        }
+        .services-icon {
+            color: $light-mono;
+        }
+    }
+    .services-03{
+        .services-icon{
+            color: $light-mono;
+        }
+    }
+    .services-04{
+        .services-box:hover{
+            background-color: $light-mono !important;
+        }
+        .services-icon {
+            color: $light-mono;
+        }
+    }
+    //Portfolio
+    .portfolio-icon a{
+        background: #9f9f9f;
+    }
+    .portfolio-02.bg-portfolio {
+        background-color: transparentize($color: $light-mono, $amount: 0.3);
+    }
+    .portfolio-filter{
+        li a.active , li a:hover{
+            background-color: $light-mono;
+        }
+    }
+    //Testimonial
+    .testimonial-01{
+        .owl-dot.active span{
+            background-color: $light-mono; 
+        }
+    }
+    .testimonial-02{
+        .testimonial-item::before {
+            color: $light-mono;
+        }
+        .owl-dot.active span{
+            background-color: $light-mono; 
+        }
+    }
+    //Blog
+    .blog-01{
+        .blog-link a:hover{
+            color: $light-mono;
+        }
+    }
+    .blog-02{
+        .blog-link a:hover{
+            color: $light-mono;
+        }
+    }
+    .blog-04 .blog-link a:hover {
+        color: $light-mono-hover;
+    }
+    //Resume
+    .resume-01{
+        .timeline-year {
+            background: #9f9f9f;
+        }
+        .svg-inline--fa {
+            color: $light-mono;
+        }
+    }
+    //contact-01
+    .contact-01{
+        .item-icon {
+            color: $light-mono;
+        }
+    }
+    //Contact-02
+    .contact-02{
+        .item-icon {
+            color: $light-mono;
+        }
+    }
+    //Footer
+    footer{
+        li a {
+            color: $light-mono;
+        }
+        li a:hover{
+            color: $light-mono-hover;
+        }
+    }
+    //ReturnTop
+    .return-to-top {
+        background-color: $light-mono;
+        color: #010101 !important;
+    }
+    //SideBar
+    .sidebar-toggler {
+        background-color: #010101;
+    }
+    .sidebar-list .list-group-item:hover, .sidebar-list .list-group-item.active  {
+        color: $light-mono !important;
+    }
+    .sidebar-page .sidebar .social-icon a:hover{
+        color: $light-mono;
+    }
+    //Blog Single
+    .entry-meta  ul li i {
+        color: $light-mono;
+    } 
+    .blog-single{
+        .comment-author p a {
+            color: $light-mono;
+        }
+        .aside-item ul li span {
+            background-color: #9f9f9f;
+        }
+        .aside-item ul li a:hover{
+            color: $light-mono;
+        }
+        .about-description-box p::before {
+            background-color: #9f9f9f;
+        }
+    }
+    //Pagination
+    .page-item.active .page-link,.page-link:hover{
+        border-color: #535353 !important;
+        background-color: #535353 !important;
+    }
+    //Portfolio Single
+    .single-portfolio{
+        .aside-item-portfolio ul li a{
+            color: $light-mono;
+        }
+    }
+
+  
+}
