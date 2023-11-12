@@ -1,34 +1,14 @@
 <?php
 $data = [];
 
-if ($_POST) {
-    $name = "";
-    $family = "";
-    $email = "";
-    $phone = "";
-    $comments = "";
-    $recipient = "josereimondez29@gmail.com"; // Tu correo electrónico va aquí
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_STRING);
+    $family = filter_input(INPUT_POST, 'family', FILTER_SANITIZE_STRING);
+    $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
+    $phone = filter_input(INPUT_POST, 'phone', FILTER_SANITIZE_STRING);
+    $comments = htmlspecialchars($_POST['comments']);
 
-    if (isset($_POST['name'])) {
-        $name = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
-    }
-
-    if (isset($_POST['family'])) {
-        $family = filter_var($_POST['family'], FILTER_SANITIZE_STRING);
-    }
-
-    if (isset($_POST['email'])) {
-        $email = str_replace(array("\r", "\n", "%0a", "%0d"), '', $_POST['email']);
-        $email = filter_var($email, FILTER_VALIDATE_EMAIL);
-    }
-
-    if (isset($_POST['phone'])) {
-        $phone = filter_var($_POST['phone'], FILTER_SANITIZE_STRING);
-    }
-
-    if (isset($_POST['comments'])) {
-        $comments = htmlspecialchars($_POST['comments']);
-    }
+    $recipient = "josereimondez29@gmail.com"; // Tu dirección de correo electrónico
 
     $subject = "Mensaje de contacto de $name $family";
 
@@ -64,9 +44,9 @@ if ($_POST) {
 } else {
     $data = array(
         'status' => 'Warning',
-        'message' => 'Something went wrong, Please try again.'
+        'message' => 'Invalid request method.'
     );
 }
 
 echo json_encode($data);
-
+?>
