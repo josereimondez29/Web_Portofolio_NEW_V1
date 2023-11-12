@@ -1,12 +1,13 @@
 <?php
 $data = [];
+
 if ($_POST) {
     $name = "";
     $family = "";
     $email = "";
     $phone = "";
     $comments = "";
-    $recipient="josereimondez29@gmail.com"; // Your email comes here
+    $recipient = "josereimondez29@gmail.com"; // Tu correo electrónico va aquí
 
     if (isset($_POST['name'])) {
         $name = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
@@ -29,11 +30,27 @@ if ($_POST) {
         $comments = htmlspecialchars($_POST['comments']);
     }
 
+    $subject = "Mensaje de contacto de $name $family";
 
-    $headers = 'MIME-Version: 1.0' . "\r\n"
-        . 'Content-type: text/html; charset=utf-8' . "\r\n"
-        . 'From: ' . $email . "\r\n";
-    if (mail($recipient, $phone, $comments, $headers)) {
+    $message = "
+        <html>
+        <head>
+            <title>Mensaje de contacto</title>
+        </head>
+        <body>
+            <p><strong>Nombre:</strong> $name $family</p>
+            <p><strong>Email:</strong> $email</p>
+            <p><strong>Teléfono:</strong> $phone</p>
+            <p><strong>Comentarios:</strong> $comments</p>
+        </body>
+        </html>
+    ";
+
+    $headers = "MIME-Version: 1.0" . "\r\n"
+        . "Content-type: text/html; charset=utf-8" . "\r\n"
+        . "From: $email" . "\r\n";
+
+    if (mail($recipient, $subject, $message, $headers)) {
         $data = array(
             'status' => 'Congratulation',
             'message' => 'Your message sent successfully.'
@@ -45,9 +62,11 @@ if ($_POST) {
         );
     }
 } else {
-	$data = array(
-		'status' => 'Warning',
-		'message' => 'Something went wrong, Please try again.'
-	);
+    $data = array(
+        'status' => 'Warning',
+        'message' => 'Something went wrong, Please try again.'
+    );
 }
+
 echo json_encode($data);
+
