@@ -39,6 +39,29 @@
         <link rel="stylesheet" href="assets/css/color/sky-blue.css" id="option-color-two">
         <!--  Color CSS  -->
         <link rel="stylesheet" href="assets/css/colorfull.css">
+        <style>
+            .personal-img img {
+                width: 200px; /* Cambia a tu tamaño deseado */
+                height: 300px; /* Cambia a tu tamaño deseado */
+                object-fit: cover; /* Asegura que la imagen cubra el contenedor sin distorsión */
+            }
+            .personal-info {
+                
+                padding: 1%; /* Espaciado interno */
+                border-radius: 10px; /* Bordes redondeados */
+                margin-bottom: 20px; /* Espaciado inferior */
+            }
+            .personal-info li {
+                margin-bottom: 10px; /* Espaciado entre elementos de la lista */
+            }
+            .personal-info small {
+                font-size: 15px; /* Tamaño de fuente ajustado */
+                color: #ffffff; /* Color del texto */
+            }
+            .personal-info strong {
+                color: #0d6efd; /* Color azul para los títulos */
+            }
+        </style>
     </head>
     <body data-spy="scroll" data-target="#scrollspy" data-offset="61" class="westin-dark">
 
@@ -77,25 +100,25 @@
                     <div class="collapse navbar-collapse" id="toggle-menu">
                         <ul class="navbar-nav nav-pills ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link active" href="#hero">Home</a>
+                                <a class="nav-link active" href="#hero">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#about">About</a>
+                                <a class="nav-link" href="#about">Info</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#services">Services</a>
+                                <a class="nav-link" href="#services">Servicios</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#portfolio">Portfolio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#testimonial">Client</a>
+                                <a class="nav-link" href="#testimonial">Clientes</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#blog">Blog</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#contact">Contact</a>
+                                <a class="nav-link" href="#contact">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -110,15 +133,17 @@
                 <div class="hero-content">
                     <div class="row">
                         <div class=" col-lg-4">
-                            <div class="personal-img">
-                                <img alt="photo" src="./img/1516500387900.jpg" />
+                            <div class="container mt-5">
+                                <div class="personal-img">
+                                    <img alt="photo" src="./img/1516500387900.jpg" class="img-fluid rounded" />
+                                </div>
                             </div>
                         </div>
                         <div class="col-lg-8 personal-item">
                             <div class="mt-5">
                                 <h1 class="mb-0 personal-name">Hola! soy <span class="base-color"> José Reimondez</span></h1>
                                 <h2 class="personal-discription">Full Stack Developer</h2>
-                                <p class="mb-0 w-75">“Apasionado desarrollador Full Stack con experiencia principal en HTML, CSS, Bootstrap, Jest, Terminales, Git, Github, Node, JavaScript, React y Python, Flask, Json, Bases de Datos, API. Certificado por Google como Analista de Datos.” 🚀👨‍💻</p>
+                                <p class="mb-0 w-75">“Desarrollador de Software Full Stack, con experiencia en liderazgo y trabajo en equipo, excelente capacidad comunicativa y actualmente trabajando en proyectos con tecnologías como HTML, CSS, JavaScript, React, Python SQL y Flask.”</p>
                                 <a href="javascript:void(0);" class="black-pill-button-01 mt-4">Descargar CV</a>
                             </div>
                         </div>
@@ -135,22 +160,20 @@
                     <div class="col-lg-6 personal-item">
                         <h2 class="mb-2">Info</h2>
                         <div class="row">
-                            <div class="col-7 col-lg-6 personal-info">
+                            <div class="col-12 col-lg-6 personal-info">
                                 <ul class="list-unstyled">
-                                    <li><small>Name : José Reimondez</small></li>
-                                    <li><small>Birthday : 29 July 1978</small></li>
-                                    <li><small>Phone : +34 624 604 647</small></li>
-                                    <li><small>From : Panamá / Spain</small></li>
+                                    <li><small><strong>Name:</strong> José Reimondez</small></li>
+                                    <li><small><strong>Birthday:</strong> 29 July 1978</small></li>
+                                    <li><small><strong>Phone:</strong> +34 624 604 647</small></li>
+                                    <li><small><strong>From:</strong> Panamá / Spain</small></li>
                                 </ul>
                             </div>
-                            <div class="col-7
-                             col-lg-6 personal-info">
+                            <div class="col-12 col-lg-6 personal-info">
                                 <ul class="list-unstyled">
-                                    <li><small>Age : 45</small></li>
-                                    <li><small>Mail : josereimondez29@gmail.com</small></li>
-                                    <li><small>Freelance : Disponible</small></li>
-                                    <li><small>Residence : Madrid, Spain</small></li>
-                                    
+                                    <li><small><strong>Age:</strong> 45</small></li>
+                                    <li><small><strong>Mail:</strong> josereimondez29@gmail.com</small></li>
+                                    <li><small><strong>Freelance:</strong> Disponible</small></li>
+                                    <li><small><strong>Residence:</strong> Madrid, Spain</small></li>
                                 </ul>
                             </div>
                             <div class="col-lg-12">
